@@ -224,3 +224,9 @@
 23,Zara Ahmed,female,25,25-30,dengue,90,98,62,36.0,13,39.0,96,77,5.5,174,79,66,103727,2401,15.0,49.3,21.1,63.2,8.6,268,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,Persistent Vomiting; Lethargy or Restlessness,261026_vital_15_25.json
 24,Sophia Kim,female,50,50-55,dengue,107,97,68,29.0,13,38.8,97,86,4.7,162,77,66,56138,3322,14.4,34.5,27.0,75.7,7.8,225,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Yes,low platelet count (56138 cells/µL); Severe Abdominal Pain,261026_vital_15_25.json
 25,Helen Zhang,female,49,45-50,dengue,93,104,69,35.0,16,40.8,97,63,4.9,204,55,64,47838,3646,14.6,53.6,25.1,58.1,7.9,127,No,No,No,Yes,Yes,No,No,No,No,Yes,low platelet count (47838 cells/µL),261026_vital_15_25.json
+1,Fatima Patel,female,63,60-65,healthy,75,104,66,38.0,14,36.7,97,88,4.2,152,110,57,319419,7504,14.3,42.9,23.8,70.9,8.4,98,No,No,No,No,No,No,No,No,No,No,None,261026_vital_15_4.json
+2,Leonardo Chen,male,11,10-15,dengue,71,104,78,26.0,23,39.4,99,86,4.5,132,115,38,33627,2421,15.2,36.1,18.9,73.7,11.2,692,Yes,Yes,No,Yes,Yes,No,No,No,No,Yes,low platelet count (33627 cells/µL); Lethargy or Restlessness,261026_vital_15_4.json
+3,Kai Reyes,male,27,25-30,healthy,74,104,75,29.0,21,36.8,96,90,4.5,173,59,60,336978,4114,14.7,44.8,17.2,87.9,7.8,239,No,No,No,No,No,No,No,No,No,No,None,261026_vital_15_4.json
+4,Alessia Katsaros,female,42,40-45,healthy,75,110,74,36.0,16,36.8,96,90,5.2,176,62,71,276088,8884,13.5,39.1,19.6,87.8,7.9,314,No,No,No,No,No,No,No,No,No,No,None,261026_vital_15_4.json
+1,Kaito Santos,male,67,65-70,healthy,95,99,76,23.0,14,36.1,100,86,5.1,148,71,28,210342,6694,15.7,46.1,24.4,82.9,8.1,269,No,No,No,No,No,No,No,No,No,No,None,261026_vital_16_2.json
+2,Aisha Katsuragi,female,42,40-45,dengue,92,114,65,49.0,18,40.8,96,77,4.7,160,87,42,69963,3312,14.1,46.9,22.5,66.6,6.3,301,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,low platelet count (69963 cells/µL); Severe Abdominal Pain; Lethargy or Restlessness,261026_vital_16_2.json
