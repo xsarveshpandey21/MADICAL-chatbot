@@ -1,6 +1,12 @@
 # 🏥 MADICAL Chatbot - Patient Health RAG Chatbot
 
-An intelligent, Retrieval-Augmented Generation (RAG) medical assistant that lets healthcare workers, researchers, and clinicians query patient health records, vital signs, and dengue diagnostics through an interactive Gradio web interface powered by local LLMs via Ollama.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success?style=for-the-badge&logo=github)](https://xsarveshpandey21.github.io/MADICAL-chatbot/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+An intelligent, Retrieval-Augmented Generation (RAG) medical assistant that lets healthcare workers, researchers, and clinicians query patient health records, vital signs, and dengue diagnostics through an interactive Gradio web interface powered by local LLMs via Ollama, with an instant live web demo available on GitHub Pages.
+
+👉 **[Launch the Live Web Demo on GitHub](https://xsarveshpandey21.github.io/MADICAL-chatbot/)**
 
 ---
 
@@ -11,7 +17,22 @@ An intelligent, Retrieval-Augmented Generation (RAG) medical assistant that lets
 - **🩺 Clinical Range Grounding**: Automatically evaluates vital signs (Blood Pressure, Heart Rate, Platelets, WBC, Temperature, Hematocrit) against age- and sex-stratified healthy baseline dictionaries.
 - **🧠 Multi-Turn Memory**: Maintains conversation context and automatically condenses older dialogue turns into concise summaries without losing focus on the current patient.
 - **📥 CSV Exporting**: Export matched patient records or entire patient datasets directly to CSV from the UI.
-- **🌐 Instant Live Access**: Supports public live URL tunneling via Gradio `--share` or deployment to cloud platforms.
+- **🌐 Instant Live Access**:
+  - **Live Web Demo**: Hosted directly via GitHub Pages at [xsarveshpandey21.github.io/MADICAL-chatbot](https://xsarveshpandey21.github.io/MADICAL-chatbot/)
+  - **Gradio Tunnel**: Supports instant public live URL tunneling via Gradio `--share`
+
+---
+
+## 🌐 Live Web Demo
+
+You can try the interactive demo immediately in your browser without installing anything locally:
+- **Demo URL**: [https://xsarveshpandey21.github.io/MADICAL-chatbot/](https://xsarveshpandey21.github.io/MADICAL-chatbot/)
+- **Features in the Demo**:
+  - Interactive clinical AI chat assistant
+  - 231 filterable, searchable synthetic patient records
+  - Real-time vital signs comparison (thrombocytopenia, blood pressure, narrow pulse pressure &le; 20 mmHg)
+  - Diagnostic criteria for WHO Dengue warning signs
+  - Direct CSV export
 
 ---
 
@@ -24,6 +45,9 @@ MADICAL-chatbot/
 ├── run.bat                    # Windows batch launcher (uses virtualenv if present)
 ├── requirements.txt           # Project dependencies
 ├── BUGS_AND_FIXES.md          # Comprehensive report of bug analyses and applied fixes
+├── docs/                      # GitHub Pages live interactive demo
+│   ├── index.html             # Single-page interactive clinical dashboard & chat engine
+│   └── data/                  # Patient JSON and CSV records for client exploration
 ├── RAGChatBot/                # Main RAG application
 │   ├── app.py                 # Gradio chat interface and state management
 │   ├── ollama_engine.py       # Query planning, dataset retrieval & LLM generation
@@ -48,7 +72,7 @@ MADICAL-chatbot/
 
 - **Python 3.10+**
 - **Ollama**: Download and install Ollama from [ollama.ai](https://ollama.ai).
-  Pull your desired model (e.g., `llama3` or `mistral`):
+  Pull your desired model (e.g., `llama3` or `qwen2.5`):
   ```bash
   ollama pull llama3
   ```
@@ -78,7 +102,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Running the Application
+## 💻 Running the Application Locally
 
 ### Option A: Local Run
 ```bash
