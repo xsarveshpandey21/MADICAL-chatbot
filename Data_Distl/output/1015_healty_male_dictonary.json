@@ -1,0 +1,448 @@
+{
+  "age_lower": 10,
+  "age_upper": 15,
+  "sex": "male",
+  "generated_at": "2026-10-22T12:30:10",
+  "cleaned_at": "2026-10-23T14:25:51",
+  "cleaning_summary": {
+    "kept": 5,
+    "filled": 2,
+    "corrected": 7,
+    "added": 2,
+    "low_confidence_in": 4
+  },
+  "parameters": {
+    "Heart Rate": {
+      "category": "vitals",
+      "unit": "bpm",
+      "min": 60,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 70,
+        "max": 110,
+        "source": "AHA / PALS resting heart rate by age"
+      },
+      "notes": "Normal resting heart rate for a teenager aged 12 to 18 years, progressively approaching adult values.",
+      "sources": [
+        "https://www.childheartspecialist.com/blog/normal-heart-rate-children-by-age",
+        "https://www.federa.org/heart-health/what-is-a-dangerous-heart-rate-for-a-child/",
+        "https://www.healthspectra.com/childrens-heart-rate-normal-ranges-from-infancy-to-teens/"
+      ]
+    },
+    "Systolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 97,
+      "max": 115,
+      "healthy_value": "97-115 mmHg",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 97,
+        "max": 115,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 97 mmHg",
+        "max 90.0 mmHg differs from reference 115 by more than 8, replaced"
+      ],
+      "original": {
+        "unit": "mmHg",
+        "min": null,
+        "max": null,
+        "healthy_value": "Below 90th percentile",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://www.bcm.edu/bodycomplab/BPappZjs/BPvAgeAPPz.html",
+        "https://www.doctronic.ai/blog/kids-blood-pressure-chart/",
+        "https://www.luriechildrens.org/en/blog/blood-pressure-in-kids-what-parents-need-to-know/"
+      ]
+    },
+    "Diastolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 57,
+      "max": 76,
+      "healthy_value": "57-76 mmHg",
+      "confidence": "reference",
+      "status": "filled",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 57,
+        "max": 76,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 57 mmHg",
+        "max missing, filled with 76 mmHg"
+      ],
+      "original": {
+        "unit": "mmHg",
+        "min": null,
+        "max": null,
+        "healthy_value": "Below 90th percentile",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://www.bcm.edu/bodycomplab/BPappZjs/BPvAgeAPPz.html",
+        "https://www.doctronic.ai/blog/kids-blood-pressure-chart/",
+        "https://www.luriechildrens.org/en/blog/blood-pressure-in-kids-what-parents-need-to-know/"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "vitals",
+      "unit": "breaths/min",
+      "min": 18,
+      "max": 30,
+      "healthy_value": "18-30 breaths/min",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "medium",
+      "reference": {
+        "min": 18,
+        "max": 30,
+        "source": "PALS / clinical vital sign references"
+      },
+      "issues": [
+        "min 12.0 breaths/min differs from reference 18 by more than 4, replaced",
+        "max 18 breaths/min differs from reference 30 by more than 4, replaced"
+      ],
+      "original": {
+        "unit": "breaths per minute",
+        "min": null,
+        "max": 18,
+        "healthy_value": "12-18 bpm",
+        "confidence": "medium"
+      },
+      "sources": [
+        "https://blog.truneb.com/normal-respiratory-rate-by-age-chart/",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/"
+      ]
+    },
+    "Body Temperature": {
+      "category": "vitals",
+      "unit": "°C",
+      "min": 36.1,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2 °C",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 36.5,
+        "max": 37.5,
+        "source": "Oral temperature references; older adults run slightly lower"
+      },
+      "notes": "Average temperature for adults (11-65 years)",
+      "issues": [
+        "renamed from 'Temperature'"
+      ],
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://wellfitinsider.com/wellness/body-temperature-chart-by-age/",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "vitals",
+      "unit": "%",
+      "min": 95,
+      "max": 100,
+      "healthy_value": "95-100 %",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 95,
+        "max": 100,
+        "source": "WHO pulse oximetry manual"
+      },
+      "notes": "Normal SpO2 levels for healthy adults and children (1+ years), with no specified caveats for males in the 10-15 age group.",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://www.acibademhealthpoint.com/blog/normal-blood-oxygen-spo2-by-age-charts-ranges-and-what-your-numbers-mean/",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "BMI": {
+      "category": "body",
+      "unit": "kg/m^2",
+      "min": 14.8,
+      "max": 22,
+      "healthy_value": "14.8-22 kg/m^2",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 14.8,
+        "max": 22.0,
+        "source": "WHO adult BMI; CDC BMI-for-age (5th-85th pct); geriatric optimum 22-27"
+      },
+      "issues": [
+        "renamed from 'Body Mass Index (BMI)'",
+        "min missing, filled with 14.8 kg/m^2",
+        "max 18.5 kg/m^2 differs from reference 22.0 by more than 1.5, replaced"
+      ],
+      "original": {
+        "unit": "kg/m^2",
+        "min": null,
+        "max": 18.5,
+        "healthy_value": "Healthy Weight",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://bmicheckcalculator.org/bmi-children.html",
+        "https://kidshealth.org/en/parents/bmi-charts.html",
+        "https://simplebmi.com/bmi-for-kids/",
+        "https://www.cdc.gov/bmi/child-teen-calculator/calculator.html",
+        "https://www.cdc.gov/bmi/child-teen-calculator/index.html",
+        "https://www.who.int/toolkits/child-growth-standards/standards/body-mass-index-for-age-bmi-for-age"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "body",
+      "unit": "cm",
+      "min": null,
+      "max": 78,
+      "healthy_value": "<= 78 cm",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": null,
+        "max": 78,
+        "source": "IDF (Europid) < 94 cm men / < 80 cm women; pediatric 90th percentile"
+      },
+      "issues": [
+        "converted 102 inches to cm",
+        "max 259.1 cm is outside plausible human limits (35-130), replaced with 78"
+      ],
+      "original": {
+        "unit": "centimeters",
+        "min": null,
+        "max": 102,
+        "healthy_value": "below 40 inches",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://criticalbody.com/average-waist-size/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/"
+      ]
+    },
+    "Fasting Blood Glucose": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 70,
+        "max": 99,
+        "source": "ADA Standards of Care (normal fasting < 100 mg/dL)"
+      },
+      "notes": "Normal fasting blood glucose range for healthy children without diabetes, but any persistent abnormal reading should always be evaluated by a pediatrician.",
+      "issues": [
+        "renamed from 'Glucose'"
+      ],
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://int.livhospital.com/pediatric-blood-sugar-levels-chart-normal-ranges-by-age/"
+      ]
+    },
+    "HbA1c": {
+      "category": "blood",
+      "unit": "%",
+      "min": 4,
+      "max": 5.7,
+      "healthy_value": "4-5.7 %",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 4.0,
+        "max": 5.6,
+        "source": "ADA (normal < 5.7 %, 5.7-6.4 % is prediabetes)"
+      },
+      "issues": [
+        "min missing, filled with 4.0 %"
+      ],
+      "original": {
+        "unit": "%",
+        "min": null,
+        "max": 5.7,
+        "healthy_value": "Below 5.7%",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.apollo247.com/health-topics/diabetes/normal-hba1c-range-by-age",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Total Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 170,
+      "healthy_value": "<= 170 mg/dL",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": null,
+        "max": 170,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (desirable < 200 mg/dL)"
+      },
+      "issues": [
+        "renamed from 'Cholesterol'",
+        "min 60.0 dropped: guideline sets no min limit"
+      ],
+      "original": {
+        "unit": "milligrams per deciliter (mg/dL)",
+        "min": null,
+        "max": 170,
+        "healthy_value": "(60-100 mg/dL)",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.hopkinsmedicine.org/health/conditions-and-diseases/high-cholesterol/cholesterol-ldl-hdl-and-triglycerides-in-children-and-adolescents",
+        "https://www.thewellnessvoyage.com/posts/nutrition/cholesterol/normal-cholesterol-levels"
+      ]
+    },
+    "LDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 110,
+      "healthy_value": "<= 110 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": null,
+        "max": 110,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (optimal < 100 mg/dL)"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "HDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 45,
+      "max": null,
+      "healthy_value": ">= 45 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": 45,
+        "max": null,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "blood",
+      "unit": "g/dL",
+      "min": 14,
+      "max": 16,
+      "healthy_value": "14-16 g/dL",
+      "confidence": "verified",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 13.0,
+        "max": 16.0,
+        "source": "WHO anaemia thresholds; Mayo Clinic adult reference ranges"
+      },
+      "issues": [
+        "max 18 g/dL differs from reference 16.0 by more than 1.0, replaced"
+      ],
+      "original": {
+        "unit": "grams per deciliter (g/dL)",
+        "min": null,
+        "max": 18,
+        "healthy_value": "14-18 g/dL",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://int.livhospital.com/normal-hemoglobin-values-by-age/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "lifestyle",
+      "unit": "hours/night",
+      "min": 10,
+      "max": 12,
+      "healthy_value": "10-12 hours/night",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 9,
+        "max": 12,
+        "source": "AASM / National Sleep Foundation recommendations"
+      },
+      "notes": "Based on American Academy of Sleep Medicine recommendations for children aged 6-12 years.",
+      "sources": [
+        "https://aasm.org/advocacy/position-statements/child-sleep-duration-health-advisory/",
+        "https://aasm.org/resources/pdf/pressroom/childsleepduration.pdf",
+        "https://health.clevelandclinic.org/recommended-amount-of-sleep-for-children",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877308/",
+        "https://www.medicinenet.com/how_much_sleep_do_kids_need_by_age/article.htm"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "lifestyle",
+      "unit": "min/week",
+      "min": 420,
+      "max": null,
+      "healthy_value": ">= 420 min/week",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 420,
+        "max": null,
+        "source": "WHO 2020 guidelines on physical activity"
+      },
+      "issues": [
+        "min 60.0 min/week differs from reference 420 by more than 30, replaced",
+        "max 120.0 dropped: guideline sets no max limit"
+      ],
+      "original": {
+        "unit": "minutes per week",
+        "min": null,
+        "max": null,
+        "healthy_value": "60-120 minutes/week",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://www.cdc.gov/physical-activity-education/guidelines/index.html",
+        "https://www.cdc.gov/physicalactivity/basics/pdfs/FrameworkGraphicV11.pdf",
+        "https://www.emro.who.int/health-education/physical-activity/recommended-levels-of-physical-activity-for-health.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

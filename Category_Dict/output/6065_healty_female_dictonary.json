@@ -1,0 +1,189 @@
+{
+  "age_lower": 60,
+  "age_upper": 65,
+  "sex": "female",
+  "generated_at": "2026-10-22T18:17:36",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "notes": "Normal range for adult women of any age, with a median of 73 bpm for women aged 40 to 59.",
+      "confidence": "high",
+      "sources": [
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 130,
+      "healthy_value": "120-133 / 77-79 mmHg",
+      "notes": "Blood pressure tends to rise as women get older, especially after menopause.",
+      "confidence": "low",
+      "sources": [
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20 bpm",
+      "notes": "Normal respiratory rate for adults at rest, with slight increases in elderly adults due to natural aging changes.",
+      "confidence": "low",
+      "sources": [
+        "https://emedicine.medscape.com/article/2172054-overview",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Note: The range may vary slightly depending on individual factors such as menstrual cycle and ambient temperature.",
+      "confidence": "medium",
+      "sources": [
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "No specific notes provided in the context.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "cm",
+      "min": null,
+      "max": 35,
+      "healthy_value": "Below 31.5 inches (80 cm)",
+      "notes": "Readings above 40 inches signal substantially higher cardiometabolic risk.",
+      "confidence": "high",
+      "sources": [
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://nutritionhealthinfo.com/what-should-my-waist-circumference-be/"
+      ]
+    },
+    "BMI": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 27,
+      "healthy_value": "23-27",
+      "notes": "Geriatric BMI range that accounts for age-related muscle loss and body composition changes.",
+      "confidence": "high",
+      "sources": [
+        "https://60andover.net/healthy-weight-bmi-calculator-seniors/",
+        "https://seniorsite.org/buying-guides/weight-chart-for-seniors-female-your-healthy-bmi-guide-by-age",
+        "https://tools.60andover.net/bmi-for-women-over-60/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "(70-99 mg/dL)",
+      "notes": "Normal laboratory fasting blood sugar for adults without diabetes, with some flexibility to slightly higher readings to reduce the risk of hypoglycemia.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://popsdiabetescare.com/normal-blood-sugar-levels-by-age-a-complete-chart-guide/"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "No diabetes risk",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/",
+        "https://www.medanta.org/patient-education-blog/hba1c-test-normal-range-chart-and-what-it-means"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 5.0,
+      "healthy_value": "(Below 5.0 mmol/L)",
+      "notes": "NHS desirable target, may be higher after menopause",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age",
+        "https://www.thewellnessvoyage.com/posts/nutrition/cholesterol/normal-cholesterol-levels"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "g/dL",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "May be affected by dehydration (0.5-1.0 g/dL), high altitude living (1-2 g/dL), and time of day.",
+      "confidence": "medium",
+      "sources": [
+        "https://labreadai.com/en/calc/norma-gemoglobina",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 9,
+      "healthy_value": "7-8 hours",
+      "notes": "The target sleep duration doesn't change dramatically at 60, but getting those hours becomes noticeably harder due to hormonal shifts and other factors.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/how-much-sleep-does-a-60-year-old-woman-need/",
+        "https://mymedicineadvisor.com/health/hours-of-sleep-by-age/",
+        "https://scienceinsights.org/how-much-sleep-does-a-60-year-old-really-need/",
+        "https://www.after50health.com/average-sleep-hours-chart-for-seniors-your-age-based-visual-guide.html"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes/week",
+      "min": null,
+      "max": null,
+      "healthy_value": "150-75 minutes of moderate-intensity aerobic activity or an equivalent combination of both",
+      "notes": "Combination of moderate and vigorous intensity activities may be used. Light activity is moving rather than sitting or lying down.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/index.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-older-adults/",
+        "https://www.who.int/docs/default-source/physical-activity/information-sheet-global-recommendations-on-physical-activity-for-health/physical-activity-recommendations-65years.pdf"
+      ]
+    }
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "age_lower": 55,
+  "age_upper": 60,
+  "sex": "male",
+  "generated_at": "2026-10-22T15:00:42",
+  "cleaned_at": "2026-10-23T14:25:51",
+  "cleaning_summary": {
+    "kept": 7,
+    "filled": 3,
+    "corrected": 4,
+    "added": 2,
+    "low_confidence_in": 3
+  },
+  "parameters": {
+    "Heart Rate": {
+      "category": "vitals",
+      "unit": "bpm",
+      "min": 50,
+      "max": 100,
+      "healthy_value": "50-100 bpm",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 60,
+        "max": 100,
+        "source": "AHA / PALS resting heart rate by age"
+      },
+      "notes": "Fit or athletic individuals may have a resting heart rate as low as 40 bpm, but it's not a concern if they're healthy. A resting heart rate above 100 bpm or below 60 bpm (for non-athletes) may indicate an underlying health issue.",
+      "sources": [
+        "https://asianheartinstitute.org/blog/normal-heart-rate-guide-men-women-all-ages/",
+        "https://themetabolicjournal.com/biomarkers/resting-heart-rate",
+        "https://www.forbes.com/health/wellness/normal-heart-rate-by-age/",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm",
+        "https://www.medicinenet.com/what_is_a_good_resting_heart_rate_by_age/article.htm"
+      ]
+    },
+    "Systolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 90,
+      "max": 120,
+      "healthy_value": "90-120 mmHg",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 90,
+        "max": 119,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 90 mmHg"
+      ],
+      "original": {
+        "unit": "millimeters of mercury (mmHg)",
+        "min": null,
+        "max": 120,
+        "healthy_value": "< 120/80",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Diastolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 60,
+      "max": 80,
+      "healthy_value": "60-80 mmHg",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 60,
+        "max": 79,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 60 mmHg"
+      ],
+      "original": {
+        "unit": "millimeters of mercury (mmHg)",
+        "min": null,
+        "max": 120,
+        "healthy_value": "< 120/80",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "vitals",
+      "unit": "breaths/min",
+      "min": 12,
+      "max": 20,
+      "healthy_value": "12-20 breaths/min",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 12,
+        "max": 20,
+        "source": "PALS / clinical vital sign references"
+      },
+      "notes": "Individual variations are normal, and fitness level and health status can affect these ranges.",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "vitals",
+      "unit": "°C",
+      "min": 36.1,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2 °C",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "medium",
+      "reference": {
+        "min": 36.1,
+        "max": 37.2,
+        "source": "Oral temperature references; older adults run slightly lower"
+      },
+      "issues": [
+        "min 36.6 °C differs from reference 36.1 by more than 0.4, replaced"
+      ],
+      "original": {
+        "unit": "°C",
+        "min": null,
+        "max": 37.2,
+        "healthy_value": "36.6-37.2°C",
+        "confidence": "medium"
+      },
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "vitals",
+      "unit": "%",
+      "min": 95,
+      "max": 100,
+      "healthy_value": "95-100 %",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 95,
+        "max": 100,
+        "source": "WHO pulse oximetry manual"
+      },
+      "notes": "Elderly adults (60-69 years) may see slightly lower baselines due to age-related changes in lung elasticity.",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://chatppg.com/blog/blood-oxygen-level-chart",
+        "https://momentarylab.com/blog/healthcare-devices/pulse-oximeter-readings-chart"
+      ]
+    },
+    "BMI": {
+      "category": "body",
+      "unit": "kg/m^2",
+      "min": 18.5,
+      "max": 24.9,
+      "healthy_value": "18.5-24.9 kg/m^2",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 18.5,
+        "max": 24.9,
+        "source": "WHO adult BMI; CDC BMI-for-age (5th-85th pct); geriatric optimum 22-27"
+      },
+      "issues": [
+        "min 22.9 kg/m^2 differs from reference 18.5 by more than 1.5, replaced",
+        "max 27.5 kg/m^2 differs from reference 24.9 by more than 1.5, replaced"
+      ],
+      "original": {
+        "unit": "kg/m^2",
+        "min": null,
+        "max": 27.5,
+        "healthy_value": "22.9-24.9",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://healthcalchub.net/bmi-for-men/",
+        "https://healthybmicheck.com/bmi-chart-men-over-60",
+        "https://www.lifemeasure.com/bmi-charts/men/55-years-old"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "body",
+      "unit": "cm",
+      "min": null,
+      "max": 94,
+      "healthy_value": "<= 94 cm",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": null,
+        "max": 94,
+        "source": "IDF (Europid) < 94 cm men / < 80 cm women; pediatric 90th percentile"
+      },
+      "issues": [
+        "max 102 cm differs from reference 94 by more than 6, replaced"
+      ],
+      "original": {
+        "unit": "cm",
+        "min": null,
+        "max": 102,
+        "healthy_value": "below 102 cm",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://gainframe.app/blog/average-waist-size-men/",
+        "https://leanlens.ai/blog/average-waist-size-men",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/",
+        "https://www.bodybuildingmealplan.com/average-waist-size/"
+      ]
+    },
+    "Fasting Blood Glucose": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 70,
+        "max": 99,
+        "source": "ADA Standards of Care (normal fasting < 100 mg/dL)"
+      },
+      "notes": "Healthy adult men typically have a fasting blood glucose within this range. Lifestyle, body composition, medications, and underlying health conditions influence blood sugar far more than biological sex.",
+      "issues": [
+        "renamed from 'Glucose'"
+      ],
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://www.federa.org/blood-sugar/blood-glucose-sugar-level-chart/",
+        "https://www.simplehealthmedicine.com/2026/07/normal-blood-sugar-levels-by-age.html"
+      ]
+    },
+    "HbA1c": {
+      "category": "blood",
+      "unit": "%",
+      "min": 4,
+      "max": 5.7,
+      "healthy_value": "4-5.7 %",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 4.0,
+        "max": 5.6,
+        "source": "ADA (normal < 5.7 %, 5.7-6.4 % is prediabetes)"
+      },
+      "issues": [
+        "min missing, filled with 4.0 %"
+      ],
+      "original": {
+        "unit": "%",
+        "min": null,
+        "max": null,
+        "healthy_value": "Below 5.7%",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Total Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 193,
+      "healthy_value": "<= 193 mg/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": null,
+        "max": 200,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (desirable < 200 mg/dL)"
+      },
+      "notes": "Normal total cholesterol for a man in his 40s, with LDL below 3.0 mmol/L.",
+      "issues": [
+        "renamed from 'Cholesterol'",
+        "converted 5.0 mmol/L to mg/dL"
+      ],
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.after50health.com/cholesterol-level-chart-by-age-for-men-a-visual-guide-to-heart-health-male.html",
+        "https://www.bloodbook.com/cholesterol-levels/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart"
+      ]
+    },
+    "LDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 100,
+      "healthy_value": "<= 100 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": null,
+        "max": 100,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (optimal < 100 mg/dL)"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "HDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 40,
+      "max": null,
+      "healthy_value": ">= 40 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": 40,
+        "max": null,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "blood",
+      "unit": "g/dL",
+      "min": 14,
+      "max": 16.6,
+      "healthy_value": "14-16.6 g/dL",
+      "confidence": "verified",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 13.2,
+        "max": 16.6,
+        "source": "WHO anaemia thresholds; Mayo Clinic adult reference ranges"
+      },
+      "issues": [
+        "max 18 g/dL differs from reference 16.6 by more than 1.0, replaced"
+      ],
+      "original": {
+        "unit": "grams per deciliter (g/dL)",
+        "min": 14,
+        "max": 18,
+        "healthy_value": "14-18 g/dL",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://nutritionhealthinfo.com/what-should-my-hemoglobin-be/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.droracle.ai/articles/1005384/what-is-the-normal-hemoglobin-range-for-adult-males",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "lifestyle",
+      "unit": "hours/night",
+      "min": 7,
+      "max": 9,
+      "healthy_value": "7-9 hours/night",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 7,
+        "max": 9,
+        "source": "AASM / National Sleep Foundation recommendations"
+      },
+      "notes": "Most adults need 7-9 hours of sleep per night.",
+      "sources": [
+        "https://mymedicineadvisor.com/health/hours-of-sleep-by-age/",
+        "https://sleepscorecalculator.com/sleep-score-by-age.html",
+        "https://truevaluecalc.com/sleep-needs-by-age-chart/",
+        "https://vitahealth.fit/health/en/sleep-duration"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "lifestyle",
+      "unit": "min/week",
+      "min": 150,
+      "max": null,
+      "healthy_value": ">= 150 min/week",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 150,
+        "max": null,
+        "source": "WHO 2020 guidelines on physical activity"
+      },
+      "notes": "No specific caveats mentioned for this age group and sex.",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/what-counts.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

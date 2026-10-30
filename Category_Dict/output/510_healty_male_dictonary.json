@@ -1,0 +1,194 @@
+{
+  "age_lower": 5,
+  "age_upper": 10,
+  "sex": "male",
+  "generated_at": "2026-10-22T12:18:59",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "70-120",
+      "notes": "Normal resting heart rate for a school-age child between 6-11 years, with a median of approximately 82 beats per minute at 10 years of age.",
+      "confidence": "high",
+      "sources": [
+        "https://www.childheartspecialist.com/blog/normal-heart-rate-children-by-age",
+        "https://www.healthspectra.com/childrens-heart-rate-normal-ranges-from-infancy-to-teens/"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": null,
+      "max": 121,
+      "healthy_value": "(110-116)",
+      "notes": "Average upper limit for systolic blood pressure in children aged 5-10 years",
+      "confidence": "high",
+      "sources": [
+        "https://www.bcm.edu/bodycomplab/BPappZjs/BPvAgeAPPz.html",
+        "https://www.doctronic.ai/blog/kids-blood-pressure-chart/",
+        "https://www.md-health.com/Normal-Blood-Pressure-For-Children.html"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": null,
+      "healthy_value": "(18-30)",
+      "notes": "Normal range for school-age children (6 to 12 years). Note: breathing effort, color, and alertness often matter more than the number of breaths.",
+      "confidence": "low",
+      "sources": [
+        "https://blog.truneb.com/normal-respiratory-rate-by-age-chart/"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "kg/m2",
+      "min": null,
+      "max": null,
+      "healthy_value": "(+/-1SD from mean)",
+      "notes": "BMI-for-age (5-19 years) interpretation: Overweight >+1SD (equivalent to BMI 25 kg/m2 at 19 years), Obesity >+2SD (equivalent to BMI 30 kg/m2 at 19 years), Thinness <-2SD",
+      "confidence": "low",
+      "sources": [
+        "https://kidshealth.org/en/parents/bmi-charts.html",
+        "https://www.cdc.gov/bmi/child-teen-calculator/calculator.html",
+        "https://www.cdc.gov/bmi/child-teen-calculator/index.html",
+        "https://www.who.int/toolkits/child-growth-standards/standards/body-mass-index-for-age-bmi-for-age",
+        "https://www.who.int/tools/growth-reference-data-for-5to19-years/indicators/bmi-for-age"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "centimeters",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 37 cm",
+      "notes": "Based on average waist size for a young 5′10″ man and general guidelines, a healthy waist circumference for a male aged 5-10 years is considered below 37 cm.",
+      "confidence": "low",
+      "sources": [
+        "https://criticalbody.com/average-waist-size/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Normal fasting blood glucose range for healthy children without diabetes, but may vary depending on individual factors.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-blood-sugar-level-for-a-child/",
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://int.livhospital.com/pediatric-blood-sugar-levels-chart-normal-ranges-by-age/"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 18,
+      "healthy_value": "(14-18 g/dL)",
+      "notes": "Levels below 13 g/dL may indicate anemia requiring medical evaluation.",
+      "confidence": "high",
+      "sources": [
+        "https://int.livhospital.com/pediatric-hemoglobin-levels/",
+        "https://int.livhospital.com/pediatric-hemoglobin-values/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 170,
+      "healthy_value": "Below 170 mg/dL",
+      "notes": "Total cholesterol level for children and teens aged 2–19.",
+      "confidence": "high",
+      "sources": [
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.childheartspecialist.com/blog/normal-cholesterol-levels-children",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age",
+        "https://www.hopkinsmedicine.org/health/conditions-and-diseases/high-cholesterol/cholesterol-ldl-hdl-and-triglycerides-in-children-and-adolescents"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "HbA1c levels may vary depending on individual health status and risk factors.",
+      "confidence": "low",
+      "sources": [
+        "https://www.apollo247.com/health-topics/diabetes/normal-hba1c-range-by-age",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 11,
+      "healthy_value": "10-11 hours",
+      "notes": "School-age children (5-10 years) need 9-12 hours of sleep per day, but the recommended range is 10-11 hours.",
+      "confidence": "medium",
+      "sources": [
+        "https://aasm.org/resources/pdf/pediatricsleepdurationconsensus.pdf",
+        "https://health.clevelandclinic.org/recommended-amount-of-sleep-for-children",
+        "https://keepyourchildsafe.org/children/sleep/hours-of-sleep-for-children/",
+        "https://sleepcyclefinder.com/childrens-sleep",
+        "https://www.medicinenet.com/how_much_sleep_do_kids_need_by_age/article.htm"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes per week",
+      "min": null,
+      "max": null,
+      "healthy_value": "60-120 minutes/week",
+      "notes": "No specific lower bound mentioned; general recommendation for daily physical activity is at least 60 minutes.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/guidelines/children.html",
+        "https://www.cdc.gov/physical-activity-education/guidelines/index.html",
+        "https://www.health.gov.au/topics/physical-activity-and-exercise/physical-activity-and-exercise-guidelines-for-all-australians/recommendations-for-children-and-young-people-5-to-17-years",
+        "https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/aha-recs-for-physical-activity-in-children",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.8,
+      "healthy_value": "36.1-37.8°C",
+      "notes": "Rectal measurements tend to read higher than oral readings.",
+      "confidence": "high",
+      "sources": [
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://primehealthblog.com/body-temperature-what-is-normal-body-temperature-children-adults/",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.healthline.com/health/what-is-normal-body-temperature"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "97-100%",
+      "notes": "No statistically significant variations in SpO2 among age groups (p = 0.622), and no gender differences were observed (p = 0.071). Newborns require special attention, with a normal range of 95–100% for the first 10 minutes after birth.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://momentarylab.com/blog/healthcare-devices/pulse-oximeter-readings-chart",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12010496/"
+      ]
+    }
+  }
+}

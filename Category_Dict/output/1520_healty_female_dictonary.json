@@ -1,0 +1,195 @@
+{
+  "age_lower": 15,
+  "age_upper": 20,
+  "sex": "female",
+  "generated_at": "2026-10-22T16:20:29",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": null,
+      "healthy_value": "60-100",
+      "notes": "Normal heart rate for women of any age, with a median of 73 bpm for women aged 40 to 59 and 76 bpm for women aged 20 to 39.",
+      "confidence": "high",
+      "sources": [
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html",
+        "https://www.healthspectra.com/childrens-heart-rate-normal-ranges-from-infancy-to-teens/",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": null,
+      "max": 120,
+      "healthy_value": "Below 120/80 mmHg",
+      "notes": "According to the 2025 guidelines from the American Heart Association and American College of Cardiology.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-is-normal-blood-pressure-by-age-for-women/",
+        "https://scienceinsights.org/what-is-normal-blood-pressure-for-a-teenage-girl/",
+        "https://www.emedicinehealth.com/what_is_a_normal_blood_pressure_range_by_age/article_em.htm",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20 breaths per minute",
+      "notes": "The minimum normal respiratory rate is 12 breaths per minute, and rates below this threshold may signal a need for medical attention.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-the-minimum-normal-respiratory-rate-in-an-adolescent/",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body Composition",
+      "unit": "pounds",
+      "min": null,
+      "max": 171,
+      "healthy_value": "Healthy weight: 18.5 to less than 25",
+      "notes": "Average weights by age range: 165-177 pounds for women in their 20s, and 170.9 pounds for non-Hispanic White women.",
+      "confidence": "low",
+      "sources": [
+        "https://kidshealth.org/en/teens/bmi.html",
+        "https://wellfitinsider.com/wellness/bmi-chart-for-women/",
+        "https://www.after50health.com/height-and-weight-chart-for-women-age-specific-ranges-female.html",
+        "https://www.verywellhealth.com/average-weight-for-women-8603701"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "centimeters",
+      "min": null,
+      "max": 31.5,
+      "healthy_value": "less than 31.5 inches",
+      "notes": "Low-risk category for metabolic complications",
+      "confidence": "high",
+      "sources": [
+        "https://criticalbody.com/average-waist-size/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Normal fasting blood sugar range for females aged 15-20 years, with any persistent abnormal reading to be evaluated by a pediatrician.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://prediabetescenters.com/diet-and-nutrition/female-blood-sugar-levels-chart-by-age/"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "May be affected by dehydration or menstruation, and laboratory variations exist.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.medicinenet.com/hemoglobin/article.htm",
+        "https://www.summithealth.com/health-wellness/normal-hemoglobin-levels-age-understanding-whats-healthy"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "125-200",
+      "notes": "Total cholesterol levels for women 20 years and older, with borderline high levels between 200 to 239 mg/dL.",
+      "confidence": "high",
+      "sources": [
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.hopkinsmedicine.org/health/conditions-and-diseases/high-cholesterol/cholesterol-ldl-hdl-and-triglycerides-in-children-and-adolescents",
+        "https://www.womansworld.com/wellness/heart-health/cholesterol-levels-by-age-chart-whats-healthy-or-high"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "HbA1c levels are similar for men and women; however, hormonal changes (pregnancy, menopause) can influence HbA1c in women.",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": null,
+      "healthy_value": "7-9 hours",
+      "notes": "No specific notes provided for this age group.",
+      "confidence": "low",
+      "sources": [
+        "https://mymedicineadvisor.com/health/hours-of-sleep-by-age/",
+        "https://truevaluecalc.com/sleep-needs-by-age-chart/",
+        "https://www.disabled-world.com/calculators-charts/sleep.php",
+        "https://www.medicinenet.com/how_much_sleep_do_you_need_by_age/article.htm"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes per week",
+      "min": null,
+      "max": 300,
+      "healthy_value": "150-300 minutes/week",
+      "notes": "For additional health benefits, increase moderate-intensity physical activity to 300 minutes per week.",
+      "confidence": "low",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/healthyschools/physicalactivity/guidelines.htm",
+        "https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html",
+        "https://www.cdc.gov/physical-activity-education/guidelines/index.html",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95–100%",
+      "notes": "No specific notes provided for this age group and sex.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10577592/",
+        "https://www.namdrc.org/normal-oxygen-saturation-by-age/"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Note: The normal body temperature range for females in this age group may vary slightly depending on the source.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.222health.com/family-health/teen-health/209713.html",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    }
+  }
+}

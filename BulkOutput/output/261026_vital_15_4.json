@@ -1,0 +1,398 @@
+{
+  "generated_at": "2026-10-26T15:58:06",
+  "count": 4,
+  "conditions": {
+    "healthy": 3,
+    "dengue": 1
+  },
+  "records": [
+    {
+      "id": 1,
+      "name": "Fatima Patel",
+      "sex": "female",
+      "age": 63,
+      "age_group": "60-65",
+      "condition": "healthy",
+      "vitals": {
+        "Heart Rate": {
+          "value": 75,
+          "unit": "bpm"
+        },
+        "Systolic Blood Pressure": {
+          "value": 104,
+          "unit": "mmHg"
+        },
+        "Diastolic Blood Pressure": {
+          "value": 66,
+          "unit": "mmHg"
+        },
+        "Respiratory Rate": {
+          "value": 14,
+          "unit": "breaths/min"
+        },
+        "Body Temperature": {
+          "value": 36.7,
+          "unit": "°C"
+        },
+        "SpO2": {
+          "value": 97,
+          "unit": "%"
+        },
+        "BMI": {
+          "value": 23.8,
+          "unit": "kg/m^2"
+        },
+        "Waist Circumference": {
+          "value": 70.9,
+          "unit": "cm"
+        },
+        "Fasting Blood Glucose": {
+          "value": 88,
+          "unit": "mg/dL"
+        },
+        "HbA1c": {
+          "value": 4.2,
+          "unit": "%"
+        },
+        "Total Cholesterol": {
+          "value": 152,
+          "unit": "mg/dL"
+        },
+        "LDL Cholesterol": {
+          "value": 110,
+          "unit": "mg/dL"
+        },
+        "HDL Cholesterol": {
+          "value": 57,
+          "unit": "mg/dL"
+        },
+        "Hemoglobin": {
+          "value": 14.3,
+          "unit": "g/dL"
+        },
+        "Sleep Hours": {
+          "value": 8.4,
+          "unit": "hours/night"
+        },
+        "Physical Activity Minutes per Week": {
+          "value": 98,
+          "unit": "min/week"
+        },
+        "Platelet Count": {
+          "value": 319419,
+          "unit": "cells/µL"
+        },
+        "WBC Count": {
+          "value": 7504,
+          "unit": "cells/µL"
+        },
+        "Hematocrit": {
+          "value": 42.9,
+          "unit": "%"
+        }
+      },
+      "symptoms": {
+        "Headache": false,
+        "Retro-orbital Pain": false,
+        "Muscle and Joint Pain": false,
+        "Nausea or Vomiting": false,
+        "Skin Rash": false,
+        "Severe Abdominal Pain": false,
+        "Persistent Vomiting": false,
+        "Mucosal Bleeding": false,
+        "Lethargy or Restlessness": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "Leonardo Chen",
+      "sex": "male",
+      "age": 11,
+      "age_group": "10-15",
+      "condition": "dengue",
+      "vitals": {
+        "Heart Rate": {
+          "value": 71,
+          "unit": "bpm"
+        },
+        "Systolic Blood Pressure": {
+          "value": 104,
+          "unit": "mmHg"
+        },
+        "Diastolic Blood Pressure": {
+          "value": 78,
+          "unit": "mmHg"
+        },
+        "Respiratory Rate": {
+          "value": 23,
+          "unit": "breaths/min"
+        },
+        "Body Temperature": {
+          "value": 39.4,
+          "unit": "°C"
+        },
+        "SpO2": {
+          "value": 99,
+          "unit": "%"
+        },
+        "BMI": {
+          "value": 18.9,
+          "unit": "kg/m^2"
+        },
+        "Waist Circumference": {
+          "value": 73.7,
+          "unit": "cm"
+        },
+        "Fasting Blood Glucose": {
+          "value": 86,
+          "unit": "mg/dL"
+        },
+        "HbA1c": {
+          "value": 4.5,
+          "unit": "%"
+        },
+        "Total Cholesterol": {
+          "value": 132,
+          "unit": "mg/dL"
+        },
+        "LDL Cholesterol": {
+          "value": 115,
+          "unit": "mg/dL"
+        },
+        "HDL Cholesterol": {
+          "value": 38,
+          "unit": "mg/dL"
+        },
+        "Hemoglobin": {
+          "value": 15.2,
+          "unit": "g/dL"
+        },
+        "Sleep Hours": {
+          "value": 11.2,
+          "unit": "hours/night"
+        },
+        "Physical Activity Minutes per Week": {
+          "value": 692,
+          "unit": "min/week"
+        },
+        "Platelet Count": {
+          "value": 33627,
+          "unit": "cells/µL"
+        },
+        "WBC Count": {
+          "value": 2421,
+          "unit": "cells/µL"
+        },
+        "Hematocrit": {
+          "value": 36.1,
+          "unit": "%"
+        }
+      },
+      "symptoms": {
+        "Headache": true,
+        "Retro-orbital Pain": false,
+        "Muscle and Joint Pain": true,
+        "Nausea or Vomiting": true,
+        "Skin Rash": false,
+        "Severe Abdominal Pain": false,
+        "Persistent Vomiting": false,
+        "Mucosal Bleeding": false,
+        "Lethargy or Restlessness": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "Kai Reyes",
+      "sex": "male",
+      "age": 27,
+      "age_group": "25-30",
+      "condition": "healthy",
+      "vitals": {
+        "Heart Rate": {
+          "value": 74,
+          "unit": "bpm"
+        },
+        "Systolic Blood Pressure": {
+          "value": 104,
+          "unit": "mmHg"
+        },
+        "Diastolic Blood Pressure": {
+          "value": 75,
+          "unit": "mmHg"
+        },
+        "Respiratory Rate": {
+          "value": 21,
+          "unit": "breaths/min"
+        },
+        "Body Temperature": {
+          "value": 36.8,
+          "unit": "°C"
+        },
+        "SpO2": {
+          "value": 96,
+          "unit": "%"
+        },
+        "BMI": {
+          "value": 17.2,
+          "unit": "kg/m^2"
+        },
+        "Waist Circumference": {
+          "value": 87.9,
+          "unit": "cm"
+        },
+        "Fasting Blood Glucose": {
+          "value": 90,
+          "unit": "mg/dL"
+        },
+        "HbA1c": {
+          "value": 4.5,
+          "unit": "%"
+        },
+        "Total Cholesterol": {
+          "value": 173,
+          "unit": "mg/dL"
+        },
+        "LDL Cholesterol": {
+          "value": 59,
+          "unit": "mg/dL"
+        },
+        "HDL Cholesterol": {
+          "value": 60,
+          "unit": "mg/dL"
+        },
+        "Hemoglobin": {
+          "value": 14.7,
+          "unit": "g/dL"
+        },
+        "Sleep Hours": {
+          "value": 7.8,
+          "unit": "hours/night"
+        },
+        "Physical Activity Minutes per Week": {
+          "value": 239,
+          "unit": "min/week"
+        },
+        "Platelet Count": {
+          "value": 336978,
+          "unit": "cells/µL"
+        },
+        "WBC Count": {
+          "value": 4114,
+          "unit": "cells/µL"
+        },
+        "Hematocrit": {
+          "value": 44.8,
+          "unit": "%"
+        }
+      },
+      "symptoms": {
+        "Headache": false,
+        "Retro-orbital Pain": false,
+        "Muscle and Joint Pain": false,
+        "Nausea or Vomiting": false,
+        "Skin Rash": false,
+        "Severe Abdominal Pain": false,
+        "Persistent Vomiting": false,
+        "Mucosal Bleeding": false,
+        "Lethargy or Restlessness": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "Alessia Katsaros",
+      "sex": "female",
+      "age": 42,
+      "age_group": "40-45",
+      "condition": "healthy",
+      "vitals": {
+        "Heart Rate": {
+          "value": 75,
+          "unit": "bpm"
+        },
+        "Systolic Blood Pressure": {
+          "value": 110,
+          "unit": "mmHg"
+        },
+        "Diastolic Blood Pressure": {
+          "value": 74,
+          "unit": "mmHg"
+        },
+        "Respiratory Rate": {
+          "value": 16,
+          "unit": "breaths/min"
+        },
+        "Body Temperature": {
+          "value": 36.8,
+          "unit": "°C"
+        },
+        "SpO2": {
+          "value": 96,
+          "unit": "%"
+        },
+        "BMI": {
+          "value": 19.6,
+          "unit": "kg/m^2"
+        },
+        "Waist Circumference": {
+          "value": 87.8,
+          "unit": "cm"
+        },
+        "Fasting Blood Glucose": {
+          "value": 90,
+          "unit": "mg/dL"
+        },
+        "HbA1c": {
+          "value": 5.2,
+          "unit": "%"
+        },
+        "Total Cholesterol": {
+          "value": 176,
+          "unit": "mg/dL"
+        },
+        "LDL Cholesterol": {
+          "value": 62,
+          "unit": "mg/dL"
+        },
+        "HDL Cholesterol": {
+          "value": 71,
+          "unit": "mg/dL"
+        },
+        "Hemoglobin": {
+          "value": 13.5,
+          "unit": "g/dL"
+        },
+        "Sleep Hours": {
+          "value": 7.9,
+          "unit": "hours/night"
+        },
+        "Physical Activity Minutes per Week": {
+          "value": 314,
+          "unit": "min/week"
+        },
+        "Platelet Count": {
+          "value": 276088,
+          "unit": "cells/µL"
+        },
+        "WBC Count": {
+          "value": 8884,
+          "unit": "cells/µL"
+        },
+        "Hematocrit": {
+          "value": 39.1,
+          "unit": "%"
+        }
+      },
+      "symptoms": {
+        "Headache": false,
+        "Retro-orbital Pain": false,
+        "Muscle and Joint Pain": false,
+        "Nausea or Vomiting": false,
+        "Skin Rash": false,
+        "Severe Abdominal Pain": false,
+        "Persistent Vomiting": false,
+        "Mucosal Bleeding": false,
+        "Lethargy or Restlessness": false
+      }
+    }
+  ]
+}

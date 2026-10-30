@@ -1,0 +1,194 @@
+{
+  "age_lower": 45,
+  "age_upper": 50,
+  "sex": "female",
+  "generated_at": "2026-10-22T17:40:19",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "notes": "The American Heart Association uses this range for every adult, measured while sitting or lying down, calm, and feeling well.",
+      "confidence": "high",
+      "sources": [
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 120,
+      "healthy_value": "(Below 120/80)",
+      "notes": "Normal blood pressure for women of all ages is below 120/80 mmHg.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-is-normal-blood-pressure-by-age-for-women/",
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-18",
+      "notes": "Chronic conditions like asthma, COPD, heart failure, or anemia can shift the baseline a little higher, especially during flare-ups. Medications such as opioids can also affect respiratory rate.",
+      "confidence": "high",
+      "sources": [
+        "https://blog.truneb.com/normal-respiratory-rate-by-age-chart/",
+        "https://ubiehealth.com/doctors-note/normal-respiratory-rate-adult-limits-rr-outside-4594q3",
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 26.0,
+      "healthy_value": "18.5–24.9",
+      "notes": "Women carry more essential fat than men, and the number shifts with age. For women over 50, a BMI of 20.5–26.0 may be healthier — modest extra weight protects bones and reduces frailty.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/blog/healthy-bmi-for-women.html",
+        "https://bmihealthchecker.com/articles/bmi-chart-women",
+        "https://dailycalcs.com/blog/health/healthy-bmi-for-women-over-40/",
+        "https://www.verywellhealth.com/average-weight-for-women-8603701"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "centimeters",
+      "min": null,
+      "max": 88,
+      "healthy_value": "Below 88 cm",
+      "notes": "General healthy threshold for women in Western clinical practice.",
+      "confidence": "high",
+      "sources": [
+        "https://criticalbody.com/average-waist-size/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": null,
+      "healthy_value": "90-100 mg/dL",
+      "notes": "General reference range for healthy adults; individual targets may vary depending on age, pregnancy, existing medical conditions, and healthcare provider's recommendations.",
+      "confidence": "high",
+      "sources": [
+        "https://bophin.com/article/blood-sugar-levels-chart-by-age-40-50-70-normal-range",
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://www.simplehealthmedicine.com/2026/07/normal-blood-sugar-levels-by-age.html"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "4.8-5.4%",
+      "notes": "Estrogen loss during menopause independently raises HbA1c; women with prediabetes at menopause onset deserve aggressive lifestyle attention.",
+      "confidence": "low",
+      "sources": [
+        "https://ones.health/blog/what-is-a-normal-hba1c-level-in-menopause",
+        "https://ones.health/blog/what-is-a-normal-hba1c-level-in-perimenopause",
+        "https://www.myhsn.co.uk/top-tip/normal-glucose-and-hba1c-by-age-gender-and-time-of-day/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": null,
+      "healthy_value": "125-200",
+      "notes": "Total cholesterol levels for women aged 20 and older, with average levels often rising around menopause.",
+      "confidence": "low",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.bloodbook.com/cholesterol-levels/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.womansworld.com/wellness/heart-health/cholesterol-levels-by-age-chart-whats-healthy-or-high"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "Levels below 12 g/dL in women may indicate anemia requiring medical evaluation.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-is-a-normal-hemoglobin-level-by-age-and-sex-2/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h)",
+      "min": null,
+      "max": 9,
+      "healthy_value": "7.5-9 hours",
+      "notes": "Due to hormonal fluctuations and high cognitive loads, women often require slightly more rest than men to feel fully restored.",
+      "confidence": "high",
+      "sources": [
+        "https://getsleepcalculator.net/how-much-sleep-do-i-need",
+        "https://www.federa.org/sleep-recovery/how-many-hours-of-sleep-do-women-need/"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes (min) per week",
+      "min": null,
+      "max": 300,
+      "healthy_value": "150-300 minutes/week",
+      "notes": "At least 150 minutes of moderate-intensity physical activity per week, with an optimal range of 150-300 minutes/week for additional health benefits.",
+      "confidence": "high",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "https://www.fitmotherproject.com/workout-routines-for-women-over-40/",
+        "https://www.transformfitai.com/post/how-many-days-week-should-woman-over-40-exercise-clinical-guidelines",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "Note: The age-related decline is modest but measurable. A 2006 study found that healthy adults over 65 had a mean SpO2 of approximately 95.5%, compared to 97.2% in adults aged 18-34.",
+      "confidence": "low",
+      "sources": [
+        "https://chatppg.com/blog/blood-oxygen-level-chart",
+        "https://welltory.com/blog/blood-oxygen-normal-levels"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.0-37.2°C",
+      "notes": "Note: These values are based on general guidelines and may not reflect individual variations.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.verywellhealth.com/what-is-normal-body-temperature-6890498"
+      ]
+    }
+  }
+}

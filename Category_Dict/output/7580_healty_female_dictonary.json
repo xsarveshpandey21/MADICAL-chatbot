@@ -1,0 +1,190 @@
+{
+  "age_lower": 75,
+  "age_upper": 80,
+  "sex": "female",
+  "generated_at": "2026-10-22T19:00:26",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "notes": "Normal range for adult women of any age; average U.S. woman sits at 73-76 bpm, with the middle half of women landing between about 64 and 82 bpm.",
+      "confidence": "high",
+      "sources": [
+        "https://seniorsite.org/resource/normal-resting-heart-rate-by-age-for-seniors",
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": 112,
+      "max": 117,
+      "healthy_value": "(112-117 mmHg)",
+      "notes": "Age range: 36-45 years",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.caring.com/resources/elderly-blood-pressure-guide",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "14-20",
+      "notes": "Most seniors have a chronic condition such as hypertension, heart disease, atrial fibrillation, or diabetes. A very healthy senior can tolerate a respiratory rate as fast as 30 with exercise.",
+      "confidence": "low",
+      "sources": [
+        "https://geriatricswithaloha.com/respiratory-rate-what-is-normal-in-older-adults/",
+        "https://snhhealthcare.com/what-is-an-older-person-s-typical-rate-of-respiration.html",
+        "https://www.droracle.ai/articles/489885/what-are-the-normal-values-for-geriatric-vital-signs"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 29.9,
+      "healthy_value": "(23-29.9)",
+      "notes": "Healthy BMI range for women aged 75-80 years, associated with lower mortality and better functional ability.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/senior-bmi-calculator.html",
+        "https://seniorsite.org/resource/the-doctor-approved-weight-chart-for-senior-women-with-bmi-guide",
+        "https://www.lifemeasure.com/bmi-charts/women/75-years-old"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "centimeters (cm)",
+      "min": null,
+      "max": 88,
+      "healthy_value": "less than 88 cm",
+      "notes": "Health risk begins at 80 cm (31.5 inches), and substantially increased health risk at 88 cm (34.6 inches)",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/average-waist-size-for-women-by-age-and-health-risk/",
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://www.droracle.ai/articles/372086/what-is-the-normal-waist-circumference-for-an-adult"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 140,
+      "healthy_value": "(70-99 mg/dL)",
+      "notes": "Normal fasting blood sugar level for females aged 75-80 years without diabetes. Two hours after a meal, glucose below 140 mg/dL is generally considered normal.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://seniorsite.org/resource/normal-blood-sugar-levels-chart-by-age-simple-guide-for-seniors"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "No specific caveats mentioned for this age group and sex.",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://a1ccalculator.app/tool/a1c-levels-by-age-chart"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 5.0,
+      "healthy_value": "(Below 5.0 mmol/L)",
+      "notes": "Average levels often rise around menopause, and post-menopausal women should be particularly vigilant about cholesterol monitoring.",
+      "confidence": "low",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age",
+        "https://www.thewellnessvoyage.com/posts/nutrition/cholesterol/normal-cholesterol-levels"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "Normal hemoglobin levels for women of reproductive age, with a level below 12 g/dL generally warranting follow-up for iron deficiency or another underlying cause.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/womens-hemoglobin-levels-normal-low-high-ranges/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 8,
+      "healthy_value": "7-8 hours",
+      "notes": "Similar to younger adults but slightly less than middle-aged people; those over 75 might need only 6-7 hours nightly.",
+      "confidence": "high",
+      "sources": [
+        "https://neurolaunch.com/consequences-of-lack-of-sleep-in-elderly/",
+        "https://vitalspage.com/articles/how-much-sleep-do-older-adults-need",
+        "https://www.after50health.com/average-sleep-hours-chart-for-seniors-your-age-based-visual-guide.html"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes",
+      "min": null,
+      "max": 150,
+      "healthy_value": "75-150 minutes/week of moderate-intensity aerobic activity",
+      "notes": "Aim for at least 150 minutes of moderate-intensity aerobic activity weekly, with an equivalent mix of vigorous-intensity aerobic activity or muscle-strengthening and balance activities.",
+      "confidence": "high",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/index.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html",
+        "https://www.healthline.com/health/everyday-fitness/senior-workouts",
+        "https://www.nia.nih.gov/health/exercise-and-physical-activity/tips-getting-and-staying-active-you-age"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "No specific lower bound mentioned for females in this age group; general guidelines apply to all healthy adults and children.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors",
+        "https://www.droracle.ai/articles/489817/what-is-the-normal-oxygen-saturation-level-in-geriatric",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C (97-99°F)",
+      "notes": "Contemporary medical research indicates a healthy temperature range for an adult typically falls between 36.1°C and 37.2°C.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/body-fever-temperature-in-older-adults-whats-normal-and-when-to-worry-for-seniors.html",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.nursenextdoor.com/blog/clinical-perspectives-on-body-temperature-guide"
+      ]
+    }
+  }
+}

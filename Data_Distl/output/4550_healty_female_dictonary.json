@@ -1,0 +1,425 @@
+{
+  "age_lower": 45,
+  "age_upper": 50,
+  "sex": "female",
+  "generated_at": "2026-10-22T17:40:19",
+  "cleaned_at": "2026-10-23T14:25:51",
+  "cleaning_summary": {
+    "kept": 7,
+    "filled": 2,
+    "corrected": 5,
+    "added": 2,
+    "low_confidence_in": 3
+  },
+  "parameters": {
+    "Heart Rate": {
+      "category": "vitals",
+      "unit": "bpm",
+      "min": 60,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 60,
+        "max": 100,
+        "source": "AHA / PALS resting heart rate by age"
+      },
+      "notes": "The American Heart Association uses this range for every adult, measured while sitting or lying down, calm, and feeling well.",
+      "sources": [
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html"
+      ]
+    },
+    "Systolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 90,
+      "max": 120,
+      "healthy_value": "90-120 mmHg",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 90,
+        "max": 119,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 90 mmHg"
+      ],
+      "original": {
+        "unit": "mmHg",
+        "min": null,
+        "max": 120,
+        "healthy_value": "(Below 120/80)",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://scienceinsights.org/what-is-normal-blood-pressure-by-age-for-women/",
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html"
+      ]
+    },
+    "Diastolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 60,
+      "max": 80,
+      "healthy_value": "60-80 mmHg",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 60,
+        "max": 79,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 60 mmHg"
+      ],
+      "original": {
+        "unit": "mmHg",
+        "min": null,
+        "max": 120,
+        "healthy_value": "(Below 120/80)",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://scienceinsights.org/what-is-normal-blood-pressure-by-age-for-women/",
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "vitals",
+      "unit": "breaths/min",
+      "min": 12,
+      "max": 20,
+      "healthy_value": "12-20 breaths/min",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 12,
+        "max": 20,
+        "source": "PALS / clinical vital sign references"
+      },
+      "notes": "Chronic conditions like asthma, COPD, heart failure, or anemia can shift the baseline a little higher, especially during flare-ups. Medications such as opioids can also affect respiratory rate.",
+      "sources": [
+        "https://blog.truneb.com/normal-respiratory-rate-by-age-chart/",
+        "https://ubiehealth.com/doctors-note/normal-respiratory-rate-adult-limits-rr-outside-4594q3",
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "vitals",
+      "unit": "°C",
+      "min": 36,
+      "max": 37.2,
+      "healthy_value": "36-37.2 °C",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 36.1,
+        "max": 37.2,
+        "source": "Oral temperature references; older adults run slightly lower"
+      },
+      "notes": "Note: These values are based on general guidelines and may not reflect individual variations.",
+      "issues": [
+        "renamed from 'Temperature'"
+      ],
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.verywellhealth.com/what-is-normal-body-temperature-6890498"
+      ]
+    },
+    "SpO2": {
+      "category": "vitals",
+      "unit": "%",
+      "min": 95,
+      "max": 100,
+      "healthy_value": "95-100 %",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 95,
+        "max": 100,
+        "source": "WHO pulse oximetry manual"
+      },
+      "notes": "Note: The age-related decline is modest but measurable. A 2006 study found that healthy adults over 65 had a mean SpO2 of approximately 95.5%, compared to 97.2% in adults aged 18-34.",
+      "sources": [
+        "https://chatppg.com/blog/blood-oxygen-level-chart",
+        "https://welltory.com/blog/blood-oxygen-normal-levels"
+      ]
+    },
+    "BMI": {
+      "category": "body",
+      "unit": "kg/m^2",
+      "min": 18.5,
+      "max": 26,
+      "healthy_value": "18.5-26 kg/m^2",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 18.5,
+        "max": 24.9,
+        "source": "WHO adult BMI; CDC BMI-for-age (5th-85th pct); geriatric optimum 22-27"
+      },
+      "notes": "Women carry more essential fat than men, and the number shifts with age. For women over 50, a BMI of 20.5–26.0 may be healthier — modest extra weight protects bones and reduces frailty.",
+      "issues": [
+        "renamed from 'Body Mass Index (BMI)'"
+      ],
+      "sources": [
+        "https://bmicalculatorweb.com/blog/healthy-bmi-for-women.html",
+        "https://bmihealthchecker.com/articles/bmi-chart-women",
+        "https://dailycalcs.com/blog/health/healthy-bmi-for-women-over-40/",
+        "https://www.verywellhealth.com/average-weight-for-women-8603701"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "body",
+      "unit": "cm",
+      "min": null,
+      "max": 80,
+      "healthy_value": "<= 80 cm",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": null,
+        "max": 80,
+        "source": "IDF (Europid) < 94 cm men / < 80 cm women; pediatric 90th percentile"
+      },
+      "issues": [
+        "max 88 cm differs from reference 80 by more than 6, replaced"
+      ],
+      "original": {
+        "unit": "centimeters",
+        "min": null,
+        "max": 88,
+        "healthy_value": "Below 88 cm",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://criticalbody.com/average-waist-size/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/"
+      ]
+    },
+    "Fasting Blood Glucose": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 70,
+      "max": 100,
+      "healthy_value": "70-100 mg/dL",
+      "confidence": "verified",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 70,
+        "max": 99,
+        "source": "ADA Standards of Care (normal fasting < 100 mg/dL)"
+      },
+      "issues": [
+        "renamed from 'Glucose'",
+        "min 90.0 mg/dL differs from reference 70 by more than 10, replaced"
+      ],
+      "original": {
+        "unit": "milligrams per deciliter (mg/dL)",
+        "min": null,
+        "max": null,
+        "healthy_value": "90-100 mg/dL",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://bophin.com/article/blood-sugar-levels-chart-by-age-40-50-70-normal-range",
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://www.simplehealthmedicine.com/2026/07/normal-blood-sugar-levels-by-age.html"
+      ]
+    },
+    "HbA1c": {
+      "category": "blood",
+      "unit": "%",
+      "min": 4,
+      "max": 5.4,
+      "healthy_value": "4-5.4 %",
+      "confidence": "verified",
+      "status": "corrected",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 4.0,
+        "max": 5.6,
+        "source": "ADA (normal < 5.7 %, 5.7-6.4 % is prediabetes)"
+      },
+      "issues": [
+        "renamed from 'Hemoglobin A1c (HbA1c)'",
+        "min 4.8 % differs from reference 4.0 by more than 0.3, replaced"
+      ],
+      "original": {
+        "unit": "%",
+        "min": null,
+        "max": null,
+        "healthy_value": "4.8-5.4%",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://ones.health/blog/what-is-a-normal-hba1c-level-in-menopause",
+        "https://ones.health/blog/what-is-a-normal-hba1c-level-in-perimenopause",
+        "https://www.myhsn.co.uk/top-tip/normal-glucose-and-hba1c-by-age-gender-and-time-of-day/"
+      ]
+    },
+    "Total Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 200,
+      "healthy_value": "<= 200 mg/dL",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": null,
+        "max": 200,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (desirable < 200 mg/dL)"
+      },
+      "issues": [
+        "renamed from 'Cholesterol'",
+        "min 125.0 dropped: guideline sets no min limit"
+      ],
+      "original": {
+        "unit": "milligrams per deciliter (mg/dL)",
+        "min": null,
+        "max": null,
+        "healthy_value": "125-200",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.bloodbook.com/cholesterol-levels/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.womansworld.com/wellness/heart-health/cholesterol-levels-by-age-chart-whats-healthy-or-high"
+      ]
+    },
+    "LDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 100,
+      "healthy_value": "<= 100 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": null,
+        "max": 100,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (optimal < 100 mg/dL)"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "HDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 50,
+      "max": null,
+      "healthy_value": ">= 50 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": 50,
+        "max": null,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "blood",
+      "unit": "g/dL",
+      "min": 12,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 11.6,
+        "max": 15.0,
+        "source": "WHO anaemia thresholds; Mayo Clinic adult reference ranges"
+      },
+      "notes": "Levels below 12 g/dL in women may indicate anemia requiring medical evaluation.",
+      "sources": [
+        "https://scienceinsights.org/what-is-a-normal-hemoglobin-level-by-age-and-sex-2/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "lifestyle",
+      "unit": "hours/night",
+      "min": 7.5,
+      "max": 9,
+      "healthy_value": "7.5-9 hours/night",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 7,
+        "max": 9,
+        "source": "AASM / National Sleep Foundation recommendations"
+      },
+      "notes": "Due to hormonal fluctuations and high cognitive loads, women often require slightly more rest than men to feel fully restored.",
+      "sources": [
+        "https://getsleepcalculator.net/how-much-sleep-do-i-need",
+        "https://www.federa.org/sleep-recovery/how-many-hours-of-sleep-do-women-need/"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "lifestyle",
+      "unit": "min/week",
+      "min": 150,
+      "max": null,
+      "healthy_value": ">= 150 min/week",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 150,
+        "max": null,
+        "source": "WHO 2020 guidelines on physical activity"
+      },
+      "issues": [
+        "max 300 dropped: guideline sets no max limit"
+      ],
+      "original": {
+        "unit": "minutes (min) per week",
+        "min": null,
+        "max": 300,
+        "healthy_value": "150-300 minutes/week",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "https://www.fitmotherproject.com/workout-routines-for-women-over-40/",
+        "https://www.transformfitai.com/post/how-many-days-week-should-woman-over-40-exercise-clinical-guidelines",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

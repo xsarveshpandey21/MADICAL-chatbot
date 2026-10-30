@@ -1,0 +1,429 @@
+{
+  "age_lower": 65,
+  "age_upper": 70,
+  "sex": "female",
+  "generated_at": "2026-10-22T18:33:34",
+  "cleaned_at": "2026-10-23T14:25:51",
+  "cleaning_summary": {
+    "kept": 6,
+    "filled": 1,
+    "corrected": 7,
+    "added": 2,
+    "low_confidence_in": 3
+  },
+  "parameters": {
+    "Heart Rate": {
+      "category": "vitals",
+      "unit": "bpm",
+      "min": 60,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 60,
+        "max": 100,
+        "source": "AHA / PALS resting heart rate by age"
+      },
+      "notes": "Normal range for adult women of any age, with a slightly faster rate due to smaller hearts and hormonal influences.",
+      "sources": [
+        "https://asianheartinstitute.org/blog/normal-heart-rate-guide-men-women-all-ages/",
+        "https://seniorsite.org/resource/normal-resting-heart-rate-by-age-for-seniors",
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html"
+      ]
+    },
+    "Systolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 90,
+      "max": 119,
+      "healthy_value": "90-119 mmHg",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "medium",
+      "reference": {
+        "min": 90,
+        "max": 119,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 90 mmHg",
+        "max 130.0 mmHg differs from reference 119 by more than 8, replaced"
+      ],
+      "original": {
+        "unit": "millimeters of mercury (mmHg)",
+        "min": null,
+        "max": 130,
+        "healthy_value": "Below 130/80 mm Hg",
+        "confidence": "medium"
+      },
+      "sources": [
+        "https://ubiehealth.com/doctors-note/hypertension-over65-blood-pressure-goals-senior-8821e5",
+        "https://www.aafp.org/clinical-insights/cardiometabolic-health/hypertension"
+      ]
+    },
+    "Diastolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 60,
+      "max": 80,
+      "healthy_value": "60-80 mmHg",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "medium",
+      "reference": {
+        "min": 60,
+        "max": 79,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 60 mmHg"
+      ],
+      "original": {
+        "unit": "millimeters of mercury (mmHg)",
+        "min": null,
+        "max": 130,
+        "healthy_value": "Below 130/80 mm Hg",
+        "confidence": "medium"
+      },
+      "sources": [
+        "https://ubiehealth.com/doctors-note/hypertension-over65-blood-pressure-goals-senior-8821e5",
+        "https://www.aafp.org/clinical-insights/cardiometabolic-health/hypertension"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "vitals",
+      "unit": "breaths/min",
+      "min": 12,
+      "max": 18,
+      "healthy_value": "12-18 breaths/min",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 12,
+        "max": 20,
+        "source": "PALS / clinical vital sign references"
+      },
+      "notes": "Normal range for elderly females, may decrease with age due to lung capacity changes.",
+      "sources": [
+        "https://caringseniorservice.com/blog/normal-vital-signs/",
+        "https://geriatricswithaloha.com/respiratory-rate-what-is-normal-in-older-adults/",
+        "https://healthfully.com/normal-pulse-rate-for-older-women-12681267.html",
+        "https://spirometry.com/en/news/understanding-your-pulmonary-function-test-normal-values-by-age/"
+      ]
+    },
+    "Body Temperature": {
+      "category": "vitals",
+      "unit": "°C",
+      "min": 36,
+      "max": 37.2,
+      "healthy_value": "36-37.2 °C",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 36.0,
+        "max": 37.2,
+        "source": "Oral temperature references; older adults run slightly lower"
+      },
+      "issues": [
+        "min 36.5 °C differs from reference 36.0 by more than 0.4, replaced"
+      ],
+      "original": {
+        "unit": "°C",
+        "min": null,
+        "max": 37.2,
+        "healthy_value": "36.5-37.2°C",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.after50health.com/fever-temperature-in-seniors-over-65.html",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "vitals",
+      "unit": "%",
+      "min": 95,
+      "max": 100,
+      "healthy_value": "95-100 %",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 95,
+        "max": 100,
+        "source": "WHO pulse oximetry manual"
+      },
+      "notes": "No age brackets; a reading below 95% is worth discussing with your doctor.",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "BMI": {
+      "category": "body",
+      "unit": "kg/m^2",
+      "min": 22,
+      "max": 27,
+      "healthy_value": "22-27 kg/m^2",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 22.0,
+        "max": 27.0,
+        "source": "WHO adult BMI; CDC BMI-for-age (5th-85th pct); geriatric optimum 22-27"
+      },
+      "issues": [
+        "min missing, filled with 22.0 kg/m^2",
+        "max 24.9 kg/m^2 differs from reference 27.0 by more than 1.5, replaced"
+      ],
+      "original": {
+        "unit": "kg/m^2",
+        "min": null,
+        "max": 24.9,
+        "healthy_value": "normal weight",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://bmicalculatorweb.com/senior-bmi-calculator.html",
+        "https://healthybmicheck.com/bmi-for-women-over-65",
+        "https://seniorsite.org/buying-guides/weight-chart-for-seniors-female-your-healthy-bmi-guide-by-age"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "body",
+      "unit": "cm",
+      "min": null,
+      "max": 80,
+      "healthy_value": "<= 80 cm",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "medium",
+      "reference": {
+        "min": null,
+        "max": 80,
+        "source": "IDF (Europid) < 94 cm men / < 80 cm women; pediatric 90th percentile"
+      },
+      "issues": [
+        "converted 31.5 inches to cm",
+        "min 80.0 dropped: guideline sets no min limit"
+      ],
+      "original": {
+        "unit": "centimeters",
+        "min": null,
+        "max": 80,
+        "healthy_value": "31.5-80 cm",
+        "confidence": "medium"
+      },
+      "sources": [
+        "https://biologyinsights.com/average-waist-size-for-women-by-age-and-health-risk/",
+        "https://gainframe.app/blog/average-waist-size-women/"
+      ]
+    },
+    "Fasting Blood Glucose": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 70,
+        "max": 99,
+        "source": "ADA Standards of Care (normal fasting < 100 mg/dL)"
+      },
+      "notes": "Normal fasting blood sugar level for females aged 65-70 without diabetes.",
+      "issues": [
+        "renamed from 'Glucose'"
+      ],
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://seniorsite.org/resource/normal-blood-sugar-levels-chart-by-age-simple-guide-for-seniors"
+      ]
+    },
+    "HbA1c": {
+      "category": "blood",
+      "unit": "%",
+      "min": 4,
+      "max": 5.6,
+      "healthy_value": "4-5.6 %",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 4.0,
+        "max": 5.6,
+        "source": "ADA (normal < 5.7 %, 5.7-6.4 % is prediabetes)"
+      },
+      "issues": [
+        "min 5.7 % differs from reference 4.0 by more than 0.3, replaced",
+        "max 6.4 % is outside plausible human limits (3.5-6.0), replaced with 5.6"
+      ],
+      "original": {
+        "unit": "%",
+        "min": null,
+        "max": null,
+        "healthy_value": "5.7-6.4%",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://nutritionhealthinfo.com/what-is-normal-hba1c-by-age/",
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/"
+      ]
+    },
+    "Total Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 200,
+      "healthy_value": "<= 200 mg/dL",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": null,
+        "max": 200,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (desirable < 200 mg/dL)"
+      },
+      "issues": [
+        "renamed from 'Cholesterol'",
+        "min 50.0 dropped: guideline sets no min limit",
+        "max 60.0 mg/dL is outside plausible human limits (80-240), replaced with 200"
+      ],
+      "original": {
+        "unit": "milligrams per deciliter (mg/dL)",
+        "min": null,
+        "max": null,
+        "healthy_value": "(50-60 mg/dL)",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age"
+      ]
+    },
+    "LDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 100,
+      "healthy_value": "<= 100 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": null,
+        "max": 100,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (optimal < 100 mg/dL)"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "HDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 50,
+      "max": null,
+      "healthy_value": ">= 50 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": 50,
+        "max": null,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "blood",
+      "unit": "g/dL",
+      "min": 12,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 11.6,
+        "max": 15.0,
+        "source": "WHO anaemia thresholds; Mayo Clinic adult reference ranges"
+      },
+      "notes": "Normal hemoglobin levels for women in this age group, with a lower bound of 12 g/dL and an upper bound that can vary slightly depending on the laboratory.",
+      "sources": [
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "lifestyle",
+      "unit": "hours/night",
+      "min": 7,
+      "max": 8,
+      "healthy_value": "7-8 hours/night",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 7,
+        "max": 8,
+        "source": "AASM / National Sleep Foundation recommendations"
+      },
+      "notes": "Based on National Sleep Foundation guidelines for adults aged 65+.",
+      "sources": [
+        "https://mymedicineadvisor.com/health/hours-of-sleep-by-age/",
+        "https://vitahealth.fit/health/en/sleep-duration",
+        "https://www.disabled-world.com/calculators-charts/sleep.php",
+        "https://www.medicinenet.com/how_much_sleep_do_you_need_by_age/article.htm"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "lifestyle",
+      "unit": "min/week",
+      "min": 150,
+      "max": null,
+      "healthy_value": ">= 150 min/week",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 150,
+        "max": null,
+        "source": "WHO 2020 guidelines on physical activity"
+      },
+      "issues": [
+        "max 300 dropped: guideline sets no max limit"
+      ],
+      "original": {
+        "unit": "minutes per week",
+        "min": null,
+        "max": 300,
+        "healthy_value": "150-300 minutes/week",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://seniorsite.org/resource/the-ultimate-guide-to-exercise-for-seniors-over-70",
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/index.html",
+        "https://www.who.int/docs/default-source/physical-activity/information-sheet-global-recommendations-on-physical-activity-for-health/physical-activity-recommendations-65years.pdf",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

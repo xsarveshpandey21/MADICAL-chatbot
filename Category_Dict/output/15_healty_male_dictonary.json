@@ -1,0 +1,193 @@
+{
+  "age_lower": 1,
+  "age_upper": 5,
+  "sex": "male",
+  "generated_at": "2026-10-22T12:06:51",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "bpm",
+      "min": null,
+      "max": 140,
+      "healthy_value": "80-140",
+      "notes": "Normal resting heart rate range for a child aged 3-5 years.",
+      "confidence": "high",
+      "sources": [
+        "https://www.childheartspecialist.com/blog/normal-heart-rate-children-by-age",
+        "https://www.healthspectra.com/childrens-heart-rate-normal-ranges-from-infancy-to-teens/",
+        "https://www.parents.com/normal-vs-dangerous-heart-rate-for-children-8613462"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 104,
+      "healthy_value": "(98-104)",
+      "notes": "Normal systolic blood pressure for toddlers and preschoolers (ages 1-5).",
+      "confidence": "low",
+      "sources": [
+        "https://www.bcm.edu/bodycomplab/BPappZjs/BPvAgeAPPz.html",
+        "https://www.childheartspecialist.com/blog/blood-pressure-chart-children",
+        "https://www.doctronic.ai/blog/kids-blood-pressure-chart/"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths/min",
+      "min": null,
+      "max": 40,
+      "healthy_value": "24-40 breaths per minute",
+      "notes": "Resting rate for a calm toddler (1-5 years) age group, may vary slightly depending on source.",
+      "confidence": "medium",
+      "sources": [
+        "https://blog.truneb.com/normal-respiratory-rate-by-age-chart/",
+        "https://scienceinsights.org/what-is-a-normal-respiratory-rate-for-a-toddler/"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "(36.1-37.2°C)",
+      "notes": "Normal range for adults (11-65 years) and children (1-10 years)",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/kids-temperature-whats-normal-and-when-to-worry/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.webmd.com/first-aid/normal-body-temperature"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "97-100%",
+      "notes": "No statistically significant variations in SpO2 among age groups (p = 0.622), and no gender differences were observed (p = 0.071).",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12010496/",
+        "https://www.namdrc.org/normal-oxygen-saturation-by-age/"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "None",
+      "min": null,
+      "max": null,
+      "healthy_value": "Healthy weight: 5th percentile to below the 85th percentile",
+      "notes": "Use BMI-for-age percentiles for children and teens 2 through 19. The CDC adult BMI categories define the standard healthy-weight range as 18.5 to below 25 from age 20 onward.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cdc.gov/bmi/child-teen-calculator/bmi-categories.html",
+        "https://www.cdc.gov/bmi/child-teen-calculator/index.html",
+        "https://www.chartsloom.com/bmi-by-age-chart",
+        "https://www.who.int/toolkits/child-growth-standards/standards/body-mass-index-for-age-bmi-for-age"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "cm",
+      "min": null,
+      "max": 106.1,
+      "healthy_value": "94.2-114.8 cm",
+      "notes": "Waist circumference for males aged 50-59 years.",
+      "confidence": "low",
+      "sources": [
+        "https://codingace.net/general/child_wasit_measurement.html",
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://growthkit.app/tools/child-waist-circumference-reference",
+        "https://www.cdc.gov/pcd/issues/2021/21_0021.htm"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Fasting glucose range for healthy children without diabetes.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://int.livhospital.com/pediatric-blood-sugar-levels-chart-normal-ranges-by-age/",
+        "https://www.droracle.ai/articles/665244/what-is-the-normal-reference-range-for-glucose-levels"
+      ]
+    },
+    "Hemoglobin (HbA1c)": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "7%",
+      "notes": "A1C goal of <7% is recommended for children with T1D, with an emphasis on target personalization.",
+      "confidence": "low",
+      "sources": [
+        "https://a1ccalculation.com/a1c-by-age/",
+        "https://diabetesjournals.org/care/article/44/2/301/35481/The-Evolution-of-Hemoglobin-A1c-Targets-for-Youth",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7818324/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 170,
+      "healthy_value": "(Below 110)",
+      "notes": "Total cholesterol level for children aged 1-5 years.",
+      "confidence": "high",
+      "sources": [
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.hopkinsmedicine.org/health/conditions-and-diseases/high-cholesterol/cholesterol-ldl-hdl-and-triglycerides-in-children-and-adolescents"
+      ]
+    },
+    "Hemoglobin (Hb)": {
+      "category": "Blood",
+      "unit": "g/dL",
+      "min": null,
+      "max": 15.5,
+      "healthy_value": "11.5-15.5 g/dL",
+      "notes": "Normal hemoglobin range for children aged 2-12 years, male.",
+      "confidence": "high",
+      "sources": [
+        "https://int.livhospital.com/normal-hemoglobin-values-by-age/",
+        "https://int.livhospital.com/pediatric-hemoglobin-levels/"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 13,
+      "healthy_value": "10-13 hours",
+      "notes": "Individuals at the edges of this range are usually fine. Chronic sleep below the lower bound may cause measurable harm in cognitive, metabolic, and immune endpoints.",
+      "confidence": "high",
+      "sources": [
+        "https://aasm.org/resources/pdf/pediatricsleepdurationconsensus.pdf",
+        "https://aasm.org/resources/pdf/pediatricsleepdurationmethods.pdf",
+        "https://www.sleeptly.com/by-age/preschool"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes/week",
+      "min": null,
+      "max": null,
+      "healthy_value": "At least 3 hours of physical activity per day",
+      "notes": "No specific numeric range given for this age group and sex.",
+      "confidence": "low",
+      "sources": [
+        "https://raisingchildren.net.au/babies/play-learning/active-play/physical-activity-for-young-children",
+        "https://www.aap.org/en/patient-care/healthy-active-living-for-families/preschooler-physical-activity/",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/children.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-under-five-years/"
+      ]
+    }
+  }
+}

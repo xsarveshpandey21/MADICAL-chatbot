@@ -1,0 +1,199 @@
+{
+  "age_lower": 40,
+  "age_upper": 45,
+  "sex": "female",
+  "generated_at": "2026-10-22T17:26:50",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100",
+      "notes": "Normal resting heart rate for women in this age group, with a median of 73 bpm and a middle half range of 64-82 bpm.",
+      "confidence": "high",
+      "sources": [
+        "https://bodly.app/blog/resting-heart-rate-by-age",
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html",
+        "https://www.federa.org/heart-health/normal-heart-rate-for-women/"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": 112,
+      "max": 117,
+      "healthy_value": "110-116 / 70-73 mmHg",
+      "notes": "Age group: 40-45 years, Sex: female",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20",
+      "notes": "Individual variations are normal, and your fitness level and health status can affect these ranges.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 24.9,
+      "healthy_value": "18.5-24.9",
+      "notes": "Pair with waist under 35 inches and strength training for visceral fat reduction after 40.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/blog/healthy-bmi-for-women.html",
+        "https://dailycalcs.com/blog/health/healthy-bmi-for-women-over-40/",
+        "https://reverse.health/calculator/bmi-calculator-women-over-40",
+        "https://weightlossover40tips.com/bmi-calculator-for-women-over-40/"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "centimeters",
+      "min": null,
+      "max": 88,
+      "healthy_value": "less than 35 inches",
+      "notes": "Health risks begin at 80 cm (31.5 inches), and substantially higher cardiometabolic risk at 88 cm (34.6 inches)",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/average-waist-size-for-women-by-age-and-health-risk/",
+        "https://gainframe.app/blog/average-waist-size-women/",
+        "https://nutritionhealthinfo.com/what-should-my-waist-circumference-be/",
+        "https://www.droracle.ai/articles/372086/what-is-the-normal-waist-circumference-for-an-adult",
+        "https://www.health.com/average-waist-size-for-women-11796627"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "Normal",
+      "notes": "Fasting blood sugar levels for women aged 40-45 years.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://int.livhospital.com/female-blood-sugar-levels-chart-by-age-complete-guide/"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": 5.7,
+      "healthy_value": "Below 5.7%",
+      "notes": "Average levels naturally rise with age; clinical cutoffs for prediabetes (5.7% to 6.4%) and diabetes (6.5% or above) remain the same regardless of age.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-is-normal-hba1c-by-age-key-ranges-by-group/",
+        "https://ubiehealth.com/doctors-note/diabetic-number-chart-normal-a1c-women-over-40s-8293q6",
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": null,
+      "healthy_value": "(50-200 mg/dL)",
+      "notes": "Total cholesterol levels for women between 40-45 years old. Average levels often rise around menopause.",
+      "confidence": "low",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.womansworld.com/wellness/heart-health/cholesterol-levels-by-age-chart-whats-healthy-or-high"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "Dehydration can artificially raise hemoglobin readings by 0.5-1.0 g/dL, while drinking large amounts of fluid before a blood draw can lower apparent levels.",
+      "confidence": "high",
+      "sources": [
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 9,
+      "healthy_value": "7-9 hours",
+      "notes": "Adequate sleep is essential for health, with six hours or fewer considered inadequate. There is no official upper limit.",
+      "confidence": "high",
+      "sources": [
+        "https://beyondmeasuretraining.com/blog/the-importance-of-sleep-a-guide-for-women-over-40/",
+        "https://scienceinsights.org/how-much-sleep-does-a-40-year-old-woman-need/",
+        "https://superpower.com/guides/sleep-health/how-much-sleep-do-women-need",
+        "https://www.federa.org/sleep-recovery/how-many-hours-of-sleep-do-women-need/"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes/week",
+      "min": null,
+      "max": 150,
+      "healthy_value": "at least 150 minutes of moderate-intensity physical activity per week",
+      "notes": "No specific lower bound mentioned in sources, but general recommendation for adults is at least 150 minutes of moderate-intensity physical activity per week.",
+      "confidence": "low",
+      "sources": [
+        "https://femmehobbies.com/workout-routines-for-women-over-40/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5067973/",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "https://www.hellohealthandwellbeing.com/blog/staying-active"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95–100%",
+      "notes": "Normal SpO2 levels for healthy adults and children (1+ years), with a baseline of 88–92% for adults with stable COPD.",
+      "confidence": "high",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://www.after50health.com/normal-blood-oxygen-level-chart-for-women-age-wise-chart-for-optimal-health-female.html",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Note: These values are based on general guidelines and may not reflect individual variations.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://pabau.com/templates/body-temperature-chart/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.nursenextdoor.com/blog/clinical-perspectives-on-body-temperature-guide"
+      ]
+    }
+  }
+}

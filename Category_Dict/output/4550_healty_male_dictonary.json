@@ -1,0 +1,192 @@
+{
+  "age_lower": 45,
+  "age_upper": 50,
+  "sex": "male",
+  "generated_at": "2026-10-22T14:30:46",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100",
+      "notes": "Normal resting heart rate for adults; may be lower when asleep or faster when active.",
+      "confidence": "low",
+      "sources": [
+        "https://my.clevelandclinic.org/health/diagnostics/heart-rate",
+        "https://www.after50health.com/normal-heart-beat-rate-for-men-ideal-resting-rates-through-each-life-stage-male.html",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm",
+        "https://www.medicinenet.com/what_is_a_good_resting_heart_rate_by_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": 120,
+      "max": 130,
+      "healthy_value": "Below 120/80 mmHg",
+      "notes": "According to current AHA guidelines, a healthy blood pressure level for adults is below 120/80 mmHg. Blood pressure above 130/80 mmHg may indicate hypertension.",
+      "confidence": "high",
+      "sources": [
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20 bpm",
+      "notes": "Normal breathing rate at rest; may vary based on individual factors such as fitness level and health status.",
+      "confidence": "high",
+      "sources": [
+        "https://ubiehealth.com/doctors-note/normal-respiratory-rate-adult-limits-rr-outside-4594q3",
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.medicalnewstoday.com/articles/324409"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 27,
+      "healthy_value": "22-25",
+      "notes": "A stable BMI between 22–25 with a waist circumference below 94 cm is an appropriate target for this age group.",
+      "confidence": "high",
+      "sources": [
+        "https://bmihealthchecker.com/articles/healthy-weight-ranges",
+        "https://healthcalchub.net/bmi-for-men/"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "centimeters",
+      "min": null,
+      "max": 36,
+      "healthy_value": "Below 36cm",
+      "notes": "Based on US Anthropometric Reference Data collected between the years of 2015-2018, this is considered a healthy waist size for men aged 20 and above.",
+      "confidence": "high",
+      "sources": [
+        "https://criticalbody.com/average-waist-size/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Healthy adult men typically have a fasting blood glucose within this range. Lifestyle, body composition, medications, and underlying health conditions influence blood sugar far more than biological sex.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://www.medkart.in/blog/normal-blood-sugar-levels-chart/"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": 7.0,
+      "healthy_value": "Below 7.0%",
+      "notes": "Higher targets acceptable; hypoglycemia risk increases with age",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "(60-100 mg/dL)",
+      "notes": "Total cholesterol level should be under 200 mg/dL, with an optimal LDL ('bad') cholesterol under 100 mg/dL and an HDL ('good') cholesterol of 60 mg/dL or higher.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-is-a-normal-cholesterol-range-for-adults/",
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age",
+        "https://www.thewellnessvoyage.com/posts/nutrition/cholesterol/normal-cholesterol-levels"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood",
+      "unit": "grams per deciliter (g/dL)",
+      "min": 13.2,
+      "max": 17.5,
+      "healthy_value": "13.2-16.6 g/dL",
+      "notes": "Lab ranges may vary, and values outside the printed range do not automatically signal a problem.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-are-normal-hemoglobin-levels-by-age-and-sex/",
+        "https://vitalibrary.com/hemoglobin-hgb-blood-test-normal-range-reference-values-meaning/",
+        "https://www.droracle.ai/articles/280215/what-is-the-normal-hemoglobin-hb-reference-range-for",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h)",
+      "min": null,
+      "max": 9,
+      "healthy_value": "(7-9 h)",
+      "notes": "Most adults do best on 7 to 9 hours of sleep.",
+      "confidence": "high",
+      "sources": [
+        "https://www.exahealth.com/insights/sleep-duration-normal-range",
+        "https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need",
+        "https://www.thensf.org/how-many-hours-of-sleep-do-you-really-need/"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes (min/week)",
+      "min": 150,
+      "max": null,
+      "healthy_value": "at least 150 minutes of moderate-intensity physical activity per week",
+      "notes": "No specific caveats mentioned for this age group and sex.",
+      "confidence": "high",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/index.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "(36.1-37.2°C)",
+      "notes": "Note: The normal body temperature range for adults is slightly lower than the textbook figure of 98.6°F (37°C).",
+      "confidence": "high",
+      "sources": [
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.verywellhealth.com/what-is-normal-body-temperature-6890498",
+        "https://www.webmd.com/first-aid/normal-body-temperature"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95–100%",
+      "notes": "Values below 90% usually considered low; may be a single reading or reflect minor issues like cold finger, poor sensor placement, or mild illness.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://blog.truneb.com/pulse-oximeter-readings-chart-normal-range/",
+        "https://www.exahealth.com/insights/spo2-oxygen-saturation-normal-range"
+      ]
+    }
+  }
+}

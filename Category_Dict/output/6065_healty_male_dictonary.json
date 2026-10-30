@@ -1,0 +1,191 @@
+{
+  "age_lower": 60,
+  "age_upper": 65,
+  "sex": "male",
+  "generated_at": "2026-10-22T15:16:24",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "notes": "May vary depending on health conditions and medications.",
+      "confidence": "low",
+      "sources": [
+        "https://themetabolicjournal.com/biomarkers/resting-heart-rate",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm",
+        "https://www.medicinenet.com/what_is_a_good_resting_heart_rate_by_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": null,
+      "max": 139,
+      "healthy_value": "(less than 130/85 mmHg)",
+      "notes": "High-normal blood pressure ranges from 130-139/85-89 mmHg",
+      "confidence": "high",
+      "sources": [
+        "https://www.droracle.ai/articles/541329/what-is-the-normal-blood-pressure-range-for-a",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_for_a_60-year-old/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20",
+      "notes": "Normal respiratory rate for adults at rest, with a range that may be slightly elevated in elderly adults due to decreased lung elasticity and reduced respiratory muscle strength.",
+      "confidence": "high",
+      "sources": [
+        "https://emedicine.medscape.com/article/2172054-overview",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Note: This range is based on modern research suggesting a lower baseline than the traditional 37°C.",
+      "confidence": "low",
+      "sources": [
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.after50health.com/fever-temperature-in-seniors-over-65.html",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "No specific notes provided in the context.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "centimeters",
+      "min": null,
+      "max": 102,
+      "healthy_value": "Below 37 inches is low risk; 37–40 inches is moderate; above 40 inches is high risk.",
+      "notes": "Waist circumference doubles the risk of metabolic syndrome regardless of BMI for men over 40 inches (102 cm).",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/blog/overweight-at-60-men-waist-muscle-safe-weight-loss-us.html"
+      ]
+    },
+    "BMI": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 29.9,
+      "healthy_value": "18.5-24.9",
+      "notes": "General healthy adult range; may not accurately reflect muscle mass or body composition in older adults",
+      "confidence": "low",
+      "sources": [
+        "https://healthybmicheck.com/bmi-chart-men-over-60",
+        "https://tools.60andover.net/bmi-for-60-year-old-male/",
+        "https://www.after50health.com/body-mass-index-bmi-chart-for-men-over-60-a-practical-guide-to-health-and-wellness.html"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Normal fasting blood glucose for adults between 60 and 65 years without diabetes.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://seniorsite.org/resource/normal-blood-sugar-levels-chart-by-age-simple-guide-for-seniors"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": 5.7,
+      "healthy_value": "Below 5.7%",
+      "notes": "Normal range for adults 60-65 years old",
+      "confidence": "high",
+      "sources": [
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/",
+        "https://www.myhealthhospitals.com/hba1c-chart-normal-prediabetes-diabetes.php"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "Less than 100 mg/dL",
+      "notes": "Recommended LDL Cholesterol Range for Adults (20-65 years): Less than 100 mg/dL (optimal); less than 70 mg/dL for those at high risk of heart disease.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://seniorsite.org/resource/cholesterol-levels-by-age-chart-for-seniors",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": 14,
+      "max": 18,
+      "healthy_value": "14-18 g/dL",
+      "notes": "Normal hemoglobin levels for adult males, with levels below 13 g/dL indicating anemia requiring medical evaluation.",
+      "confidence": "high",
+      "sources": [
+        "https://cardiologycare.nyc/blog/normal-hemoglobin-levels",
+        "https://nutritionhealthinfo.com/what-should-my-hemoglobin-be/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 7.5,
+      "healthy_value": "6.5-7.5",
+      "notes": "Values above 7.5 hours may indicate excessive sleep.",
+      "confidence": "high",
+      "sources": [
+        "https://vitahealth.fit/health/en/sleep-duration",
+        "https://vitahealth.fit/health/en/sleep-duration/for/60-year-old-male",
+        "https://www.exahealth.com/insights/sleep-duration-normal-range"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes/week",
+      "min": null,
+      "max": 150,
+      "healthy_value": "75-150 minutes of moderate-intensity aerobic activity or 75 minutes a week of vigorous-intensity aerobic activity",
+      "notes": "Source: CDC and The Healthy Aging Guide. Note that the exact lower bound is not specified, but it's recommended to aim for at least 75 minutes.",
+      "confidence": "high",
+      "sources": [
+        "https://thehealthyagingguide.com/workout-for-men-over-60/",
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/index.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-older-adults/"
+      ]
+    }
+  }
+}

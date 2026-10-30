@@ -1,0 +1,192 @@
+{
+  "age_lower": 65,
+  "age_upper": 70,
+  "sex": "male",
+  "generated_at": "2026-10-22T15:29:15",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-80",
+      "notes": "Stable across adulthood; maximum heart rate declines with age by roughly one beat per minute per year.",
+      "confidence": "high",
+      "sources": [
+        "https://everagewell.com/heart-rate-chart-for-seniors-resting-pulse-ranges/",
+        "https://seniorsite.org/resource/normal-resting-heart-rate-by-age-for-seniors",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 139,
+      "healthy_value": "Below 130/80 mmHg",
+      "notes": "Targets for seniors are often adjusted from AHA guidelines.",
+      "confidence": "low",
+      "sources": [
+        "https://wellfitinsider.com/seniors/blood-pressure-chart-for-seniors/",
+        "https://www.after50health.com/understanding-blood-pressure-chart-by-age-for-men-your-age-based-wellness-visual-guide-male.html",
+        "https://www.droracle.ai/articles/146999/what-is-the-normal-blood-pressure-range-for-a"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20 bpm",
+      "notes": "Individual variations are normal, and fitness level and health status can affect these ranges.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "Vitals",
+      "unit": "°F",
+      "min": null,
+      "max": 99.0,
+      "healthy_value": "97.0°F - 99.0°F",
+      "notes": "Morning temperatures usually run lower, like a car engine before it warms up. Evening readings might be slightly higher after your body's been active all day.",
+      "confidence": "low",
+      "sources": [
+        "https://www.after50health.com/body-fever-temperature-in-older-adults-whats-normal-and-when-to-worry-for-seniors.html"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "(95-100)",
+      "notes": "No specific caveats mentioned for this age group and sex.",
+      "confidence": "high",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors",
+        "https://wellfitinsider.com/wellness/blood-oxygen-level-chart-by-age/",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "cm",
+      "min": null,
+      "max": 102,
+      "healthy_value": "below 102 cm",
+      "notes": "Waist circumference should be below half of height to indicate a healthy waist size.",
+      "confidence": "high",
+      "sources": [
+        "https://bodytypecalculator.org/body-measurements-chart/",
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://gainframe.app/blog/average-waist-size-men/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/"
+      ]
+    },
+    "BMI": {
+      "category": "Body Composition",
+      "unit": "kg/m²",
+      "min": null,
+      "max": 27.9,
+      "healthy_value": "23-27.9",
+      "notes": "A low BMI is a more reliable warning sign in later life, and the traditional 'overweight' category may not be associated with a higher death rate.",
+      "confidence": "low",
+      "sources": [
+        "https://bmicalculatorweb.com/senior-bmi-calculator.html",
+        "https://seniorsite.org/resource/is-your-weight-healthy-a-senior-mans-guide-to-weight-charts",
+        "https://tools.60andover.net/senior-weight-and-bmi-guide/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "(70-99 mg/dL)",
+      "notes": "Healthy adult men typically have a fasting blood glucose within this range, with lifestyle, body composition, medications, and underlying health conditions influencing blood sugar levels.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://seniorsite.org/resource/normal-blood-sugar-levels-chart-by-age-simple-guide-for-seniors",
+        "https://www.simplehealthmedicine.com/2026/07/normal-blood-sugar-levels-by-age.html"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "5.7-6.4%",
+      "notes": "Below 5.7% is normal, 5.7-6.4% is prediabetes, and 6.5%+ is diabetes.",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/tools/a1c-by-age/",
+        "https://nutritionhealthinfo.com/what-is-normal-hba1c-by-age/",
+        "https://scienceinsights.org/what-is-normal-hba1c-by-age-key-ranges-by-group/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "Less than 100 mg/dL",
+      "notes": "Optimal LDL range for adults aged 20-65 years, and seniors aged 65+ years.",
+      "confidence": "high",
+      "sources": [
+        "https://nutritionhealthinfo.com/what-should-cholesterol-levels-be-by-age/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": 14,
+      "max": 18,
+      "healthy_value": "(14-18 g/dL)",
+      "notes": "Normal hemoglobin levels for adult men, with a notable tension in the evidence regarding standard thresholds for men ≥70 years.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-hemoglobin-range-by-age/",
+        "https://biologyinsights.com/what-is-the-normal-range-for-hemoglobin-by-age/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.droracle.ai/articles/1596371/what-are-the-normal-laboratory-reference-ranges-for-evaluating",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h) per night",
+      "min": null,
+      "max": 8,
+      "healthy_value": "7-8 hours",
+      "notes": "No significant differences between age groups; adults ages 65 years and over still need between 7 and 8 hours of sleep.",
+      "confidence": "high",
+      "sources": [
+        "https://www.healthline.com/health/senior-health/sleep-hygiene-for-older-adults",
+        "https://www.medicalnewstoday.com/articles/sleep-hygiene-for-older-adults"
+      ]
+    },
+    "Physical Activity Minutes": {
+      "category": "Lifestyle",
+      "unit": "minutes",
+      "min": null,
+      "max": null,
+      "healthy_value": "150 minutes per week",
+      "notes": "No specific lower bound mentioned in sources; general recommendation for adults 65+ is to aim for at least some physical activity, with no upper limit specified.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/index.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html",
+        "https://www.healthline.com/health/everyday-fitness/senior-workouts"
+      ]
+    }
+  }
+}

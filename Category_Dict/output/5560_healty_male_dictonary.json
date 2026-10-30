@@ -1,0 +1,199 @@
+{
+  "age_lower": 55,
+  "age_upper": 60,
+  "sex": "male",
+  "generated_at": "2026-10-22T15:00:42",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "50-90",
+      "notes": "Fit or athletic individuals may have a resting heart rate as low as 40 bpm, but it's not a concern if they're healthy. A resting heart rate above 100 bpm or below 60 bpm (for non-athletes) may indicate an underlying health issue.",
+      "confidence": "low",
+      "sources": [
+        "https://asianheartinstitute.org/blog/normal-heart-rate-guide-men-women-all-ages/",
+        "https://themetabolicjournal.com/biomarkers/resting-heart-rate",
+        "https://www.forbes.com/health/wellness/normal-heart-rate-by-age/",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm",
+        "https://www.medicinenet.com/what_is_a_good_resting_heart_rate_by_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": null,
+      "max": 120,
+      "healthy_value": "< 120/80",
+      "notes": "According to current AHA guidelines for adults of all ages, including those aged 55-60 years.",
+      "confidence": "high",
+      "sources": [
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20",
+      "notes": "Individual variations are normal, and fitness level and health status can affect these ranges.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.6-37.2°C",
+      "notes": "Average temperature for adults (11-65 years), with slight decline in older adults (65+)",
+      "confidence": "medium",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "Elderly adults (60-69 years) may see slightly lower baselines due to age-related changes in lung elasticity.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://chatppg.com/blog/blood-oxygen-level-chart",
+        "https://momentarylab.com/blog/healthcare-devices/pulse-oximeter-readings-chart"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "cm",
+      "min": null,
+      "max": 102,
+      "healthy_value": "below 102 cm",
+      "notes": "waist circumference for men",
+      "confidence": "high",
+      "sources": [
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://gainframe.app/blog/average-waist-size-men/",
+        "https://leanlens.ai/blog/average-waist-size-men",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/",
+        "https://www.bodybuildingmealplan.com/average-waist-size/"
+      ]
+    },
+    "BMI": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 27.5,
+      "healthy_value": "22.9-24.9",
+      "notes": "Healthy BMI range for men over 60, with some research suggesting up to 27 may be acceptable after 65.",
+      "confidence": "high",
+      "sources": [
+        "https://healthcalchub.net/bmi-for-men/",
+        "https://healthybmicheck.com/bmi-chart-men-over-60",
+        "https://www.lifemeasure.com/bmi-charts/men/55-years-old"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Healthy adult men typically have a fasting blood glucose within this range. Lifestyle, body composition, medications, and underlying health conditions influence blood sugar far more than biological sex.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://www.federa.org/blood-sugar/blood-glucose-sugar-level-chart/",
+        "https://www.simplehealthmedicine.com/2026/07/normal-blood-sugar-levels-by-age.html"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "General healthy range for adults without diabetes or specified health conditions.",
+      "confidence": "high",
+      "sources": [
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 5.0,
+      "healthy_value": "Below 5.0 mmol/L",
+      "notes": "Normal total cholesterol for a man in his 40s, with LDL below 3.0 mmol/L.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.after50health.com/cholesterol-level-chart-by-age-for-men-a-visual-guide-to-heart-health-male.html",
+        "https://www.bloodbook.com/cholesterol-levels/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": 14,
+      "max": 18,
+      "healthy_value": "14-18 g/dL",
+      "notes": "Normal hemoglobin levels for adult males, with a range that may vary slightly between laboratories.",
+      "confidence": "high",
+      "sources": [
+        "https://nutritionhealthinfo.com/what-should-my-hemoglobin-be/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.droracle.ai/articles/1005384/what-is-the-normal-hemoglobin-range-for-adult-males",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": null,
+      "healthy_value": "7-9",
+      "notes": "Most adults need 7-9 hours of sleep per night.",
+      "confidence": "low",
+      "sources": [
+        "https://mymedicineadvisor.com/health/hours-of-sleep-by-age/",
+        "https://sleepscorecalculator.com/sleep-score-by-age.html",
+        "https://truevaluecalc.com/sleep-needs-by-age-chart/",
+        "https://vitahealth.fit/health/en/sleep-duration"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes/week",
+      "min": 150,
+      "max": null,
+      "healthy_value": "at least 150 minutes of moderate-intensity physical activity per week",
+      "notes": "No specific caveats mentioned for this age group and sex.",
+      "confidence": "high",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/what-counts.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

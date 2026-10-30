@@ -1,0 +1,196 @@
+{
+  "age_lower": 10,
+  "age_upper": 15,
+  "sex": "male",
+  "generated_at": "2026-10-22T12:30:10",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": 60,
+      "max": 100,
+      "healthy_value": "normal",
+      "notes": "Normal resting heart rate for a teenager aged 12 to 18 years, progressively approaching adult values.",
+      "confidence": "high",
+      "sources": [
+        "https://www.childheartspecialist.com/blog/normal-heart-rate-children-by-age",
+        "https://www.federa.org/heart-health/what-is-a-dangerous-heart-rate-for-a-child/",
+        "https://www.healthspectra.com/childrens-heart-rate-normal-ranges-from-infancy-to-teens/"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 90th percentile",
+      "notes": "Normal blood pressure for a child age 10-15 years is below the 90th percentile, which means systolic and diastolic pressures should be below 120/80 mmHg.",
+      "confidence": "low",
+      "sources": [
+        "https://www.bcm.edu/bodycomplab/BPappZjs/BPvAgeAPPz.html",
+        "https://www.doctronic.ai/blog/kids-blood-pressure-chart/",
+        "https://www.luriechildrens.org/en/blog/blood-pressure-in-kids-what-parents-need-to-know/"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 18,
+      "healthy_value": "12-18 bpm",
+      "notes": "Normal range for males in this age group, with some variation depending on individual factors such as fitness level and health status.",
+      "confidence": "medium",
+      "sources": [
+        "https://blog.truneb.com/normal-respiratory-rate-by-age-chart/",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 18.5,
+      "healthy_value": "Healthy Weight",
+      "notes": "BMI-for-age percentile charts are used for children and adolescents ages 2 through 19 years.",
+      "confidence": "low",
+      "sources": [
+        "https://bmicheckcalculator.org/bmi-children.html",
+        "https://kidshealth.org/en/parents/bmi-charts.html",
+        "https://simplebmi.com/bmi-for-kids/",
+        "https://www.cdc.gov/bmi/child-teen-calculator/calculator.html",
+        "https://www.cdc.gov/bmi/child-teen-calculator/index.html",
+        "https://www.who.int/toolkits/child-growth-standards/standards/body-mass-index-for-age-bmi-for-age"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "centimeters",
+      "min": null,
+      "max": 102,
+      "healthy_value": "below 40 inches",
+      "notes": "According to ScienceInsights, a healthy waist circumference for men is below 40 inches.",
+      "confidence": "high",
+      "sources": [
+        "https://criticalbody.com/average-waist-size/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "(70-99 mg/dL)",
+      "notes": "Normal fasting blood glucose range for healthy children without diabetes, but any persistent abnormal reading should always be evaluated by a pediatrician.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://int.livhospital.com/pediatric-blood-sugar-levels-chart-normal-ranges-by-age/"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 18,
+      "healthy_value": "14-18 g/dL",
+      "notes": "Levels below 13 g/dL may indicate anemia requiring medical evaluation.",
+      "confidence": "high",
+      "sources": [
+        "https://int.livhospital.com/normal-hemoglobin-values-by-age/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 170,
+      "healthy_value": "(60-100 mg/dL)",
+      "notes": "Total cholesterol level should be below this value for children and teens aged 2–19.",
+      "confidence": "high",
+      "sources": [
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.hopkinsmedicine.org/health/conditions-and-diseases/high-cholesterol/cholesterol-ldl-hdl-and-triglycerides-in-children-and-adolescents",
+        "https://www.thewellnessvoyage.com/posts/nutrition/cholesterol/normal-cholesterol-levels"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": 5.7,
+      "healthy_value": "Below 5.7%",
+      "notes": "Normal HbA1c for kids: Below 5.7% (non-diabetic)",
+      "confidence": "high",
+      "sources": [
+        "https://www.apollo247.com/health-topics/diabetes/normal-hba1c-range-by-age",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h)",
+      "min": null,
+      "max": 12,
+      "healthy_value": "10-12 h",
+      "notes": "Based on American Academy of Sleep Medicine recommendations for children aged 6-12 years.",
+      "confidence": "high",
+      "sources": [
+        "https://aasm.org/advocacy/position-statements/child-sleep-duration-health-advisory/",
+        "https://aasm.org/resources/pdf/pressroom/childsleepduration.pdf",
+        "https://health.clevelandclinic.org/recommended-amount-of-sleep-for-children",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877308/",
+        "https://www.medicinenet.com/how_much_sleep_do_kids_need_by_age/article.htm"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes per week",
+      "min": null,
+      "max": null,
+      "healthy_value": "60-120 minutes/week",
+      "notes": "No specific lower bound mentioned; general recommendation for children and adolescents aged 5-17 years.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-education/guidelines/index.html",
+        "https://www.cdc.gov/physicalactivity/basics/pdfs/FrameworkGraphicV11.pdf",
+        "https://www.emro.who.int/health-education/physical-activity/recommended-levels-of-physical-activity-for-health.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "(95-100)",
+      "notes": "Normal SpO2 levels for healthy adults and children (1+ years), with no specified caveats for males in the 10-15 age group.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://www.acibademhealthpoint.com/blog/normal-blood-oxygen-spo2-by-age-charts-ranges-and-what-your-numbers-mean/",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Average temperature for adults (11-65 years)",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://wellfitinsider.com/wellness/body-temperature-chart-by-age/",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    }
+  }
+}

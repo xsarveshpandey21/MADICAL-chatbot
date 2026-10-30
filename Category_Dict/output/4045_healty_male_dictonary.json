@@ -1,0 +1,194 @@
+{
+  "age_lower": 40,
+  "age_upper": 45,
+  "sex": "male",
+  "generated_at": "2026-10-22T14:16:04",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": 60,
+      "max": 100,
+      "healthy_value": "50-90 bpm",
+      "notes": "The practical sweet spot for most men is narrower than the standard range of 60 to 100 bpm. A heart rate of 55, for instance, is perfectly healthy in many men and shouldn’t raise concern on its own.",
+      "confidence": "low",
+      "sources": [
+        "https://scienceinsights.org/what-is-a-normal-heart-rate-for-men-by-age/",
+        "https://themetabolicjournal.com/biomarkers/resting-heart-rate",
+        "https://www.healthly.io/en/heart/pulse-rate-age/40-years/",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": null,
+      "max": 130,
+      "healthy_value": "(less than 120/80)",
+      "notes": "According to current AHA guidelines",
+      "confidence": "high",
+      "sources": [
+        "https://www.betterhealthfacts.com/2014/02/normal-blood-pressure-for-men.html",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20",
+      "notes": "Resting rate for adults aged 18-40 years, with individual variations possible due to fitness level and health status.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.chartsloom.com/respiratory-rate-chart",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Average near 36.6 °C, may vary depending on time of day and individual variation",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "(95-100)",
+      "notes": "For healthy adults and children (1+ years), normal SpO2 is 95–100%. For newborns in the first 10 minutes of life, 90–95% is part of the normal transition.",
+      "confidence": "high",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://wellfitinsider.com/wellness/blood-oxygen-level-chart-by-age/",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "centimeters",
+      "min": null,
+      "max": 102,
+      "healthy_value": "below 102 cm",
+      "notes": "waist circumference for men in this age group indicates increased risk of heart disease, type 2 diabetes, and early death",
+      "confidence": "high",
+      "sources": [
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://gainframe.app/blog/average-waist-size-men/",
+        "https://nutritionhealthinfo.com/what-should-my-waist-circumference-be/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/",
+        "https://www.health.com/average-waist-size-for-men-11801475"
+      ]
+    },
+    "BMI": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 24.9,
+      "healthy_value": "18.5-24.9",
+      "notes": "Maintaining a healthy BMI in this range is associated with the lowest risk of cardiovascular disease, type 2 diabetes, and certain cancers.",
+      "confidence": "high",
+      "sources": [
+        "https://healthcalchub.net/bmi-for-men/",
+        "https://www.lifemeasure.com/bmi-charts/men/40-years-old"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Healthy adult men typically have a fasting blood glucose within this range.",
+      "confidence": "high",
+      "sources": [
+        "https://bophin.com/article/blood-sugar-levels-chart-by-age-40-50-70-normal-range",
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://polarbearmeds.com/normal-blood-sugar-levels-chart-by-age-40",
+        "https://rungtahospital.com/blood-sugar-level-chart/"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "General range for adults; may be adjusted based on individual health status and risk factors.",
+      "confidence": "low",
+      "sources": [
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 5.0,
+      "healthy_value": "Below 5.0",
+      "notes": "Normal total cholesterol for a man in his 40s, with LDL below 3.0 mmol/L.",
+      "confidence": "high",
+      "sources": [
+        "https://health-aspire.com/blog/cholesterol-levels-by-age/",
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.after50health.com/cholesterol-level-chart-by-age-for-men-a-visual-guide-to-heart-health-male.html",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": 13.5,
+      "max": 17.5,
+      "healthy_value": "(13.5-17.5 g/dL)",
+      "notes": "Normal range for healthy adult males, with some laboratories using slightly different ranges.",
+      "confidence": "high",
+      "sources": [
+        "https://aibloodtest.de/normal-range-for-hemoglobin-men-women-kids-by-age/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.droracle.ai/articles/1005384/what-is-the-normal-hemoglobin-range-for-adult-males"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 8,
+      "healthy_value": "7-8 hours",
+      "notes": "Values above 8 hours may indicate excessive sleep, while values below 7 hours fall into Fair, Poor, or Very Poor.",
+      "confidence": "medium",
+      "sources": [
+        "https://menshealthafter40.com/how-many-hours-sleep-men-over-40/",
+        "https://vitahealth.fit/health/en/sleep-duration/for/40-year-old-male"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes",
+      "min": null,
+      "max": 300,
+      "healthy_value": "150-300 minutes per week",
+      "notes": "For adults aged 18–64 years, at least 150 minutes of moderate-intensity physical activity throughout the week, or at least 75 minutes of vigorous-intensity physical activity, or an equivalent combination of both. For additional health benefits, adults should increase their moderate-intensity physical activity to 300 minutes per week, or equivalent.",
+      "confidence": "high",
+      "sources": [
+        "https://betterme.world/articles/workout-plan-for-40-year-old-man/",
+        "https://wellfitinsider.com/fitness/fitness-level-chart-by-age/",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "age_lower": 10,
+  "age_upper": 15,
+  "sex": "female",
+  "generated_at": "2026-10-22T16:09:00",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100",
+      "notes": "Normal resting heart rate for a teenager aged 12 to 18 years, progressively approaching adult values. Well-trained athletes may have resting rates as low as 45 bpm without indicating any problem.",
+      "confidence": "low",
+      "sources": [
+        "https://www.childheartspecialist.com/blog/normal-heart-rate-children-by-age",
+        "https://www.droracle.ai/articles/171614/what-is-the-normal-heart-rate-for-a-10-year-old",
+        "https://www.forbes.com/health/wellness/normal-heart-rate-by-age/",
+        "https://www.healthspectra.com/childrens-heart-rate-normal-ranges-from-infancy-to-teens/",
+        "https://www.parents.com/normal-vs-dangerous-heart-rate-for-children-8613462"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": null,
+      "max": 90,
+      "healthy_value": "(Below 90th percentile)",
+      "notes": "Readings below the 90th percentile are considered normal for children under 13 years old.",
+      "confidence": "high",
+      "sources": [
+        "https://anatomynote.com/pediatric-blood-pressure-reference-ranges-age/",
+        "https://www.doctronic.ai/blog/kids-blood-pressure-chart/"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 18,
+      "healthy_value": "12-18 bpm",
+      "notes": "Normal respiratory rate for females in this age group, with some variation depending on individual health and conditions.",
+      "confidence": "medium",
+      "sources": [
+        "https://blog.truneb.com/normal-respiratory-rate-by-age-chart/",
+        "https://www.verywellhealth.com/what-is-a-normal-respiratory-rate-2248932"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": null,
+      "healthy_value": "Between 5th and 85th percentiles",
+      "notes": "No specific BMI number range to stay within, as a child's BMI is presented as a percentile that takes weight, height, age, and sex into account.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cdc.gov/bmi/child-teen-calculator/calculator.html",
+        "https://www.cdc.gov/bmi/child-teen-calculator/index.html",
+        "https://www.everydayhealth.com/diet-nutrition/bmi/what-causes-childhood-obesity-bmi-ranges-kids-obesity-prevention-tips-more/",
+        "https://www.who.int/toolkits/child-growth-standards/standards/body-mass-index-for-age-bmi-for-age",
+        "https://www.who.int/tools/growth-reference-data-for-5to19-years/indicators/bmi-for-age"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "centimeters (cm)",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 70 cm",
+      "notes": "No specific reference range provided for this age group and sex.",
+      "confidence": "low",
+      "sources": [
+        "https://cpeg-gcep.net/content/waist-circumference-and-waist-height-ratio-charts",
+        "https://www.cdc.gov/pcd/issues/2021/21_0021.htm",
+        "https://www.medindia.net/patients/calculators/height_weight_forchildren.asp",
+        "https://www.researchgate.net/publication/325109868_Waist_circumference_in_6-12-year-old_children_The_Health_Oriented_Pedagogical_Project_HOPP",
+        "https://www.who.int/tools/child-growth-standards/standards/weight-for-age"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "General range for healthy children without diabetes, but any persistent abnormal reading should always be evaluated by a pediatrician.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://www.glucoseintel.com/blood-sugar/normal-levels/",
+        "https://www.ultrahuman.com/blog/blood-sugar-levels-chart-by-age-whats-normal-at-every-life-stage/"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 7%",
+      "notes": "Lower is better within safe limits for nonpregnant adults with diabetes.",
+      "confidence": "low",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://felixhospital.com/blogs/blood-sugar-level-chart-by-age",
+        "https://www.ultrahuman.com/blog/blood-sugar-levels-chart-by-age-whats-normal-at-every-life-stage/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "125-200",
+      "notes": "Total cholesterol should be less than 200 mg/dL for most healthy adults 20 and older.",
+      "confidence": "high",
+      "sources": [
+        "https://pabau.com/templates/cholesterol-level-chart-by-age/",
+        "https://www.doctronic.ai/blog/cholesterol-levels-by-age/",
+        "https://www.verywellhealth.com/cholesterol-levels-by-age-chart-5190176"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 15.5,
+      "healthy_value": "12-15.5 g/dL",
+      "notes": "Age group: 10-15 years, Sex: female",
+      "confidence": "high",
+      "sources": [
+        "https://cardiologycare.nyc/blog/normal-hemoglobin-levels",
+        "https://emedicine.medscape.com/article/2085614-overview",
+        "https://int.livhospital.com/normal-hgb-in-kids/",
+        "https://www.healthline.com/health/normal-hemoglobin-levels"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": null,
+      "healthy_value": "10-12 hours",
+      "notes": "Note: The recommended amount of sleep for children in this age group may vary depending on individual needs and circumstances.",
+      "confidence": "low",
+      "sources": [
+        "https://health.clevelandclinic.org/recommended-amount-of-sleep-for-children",
+        "https://kidsbedtimecalculator.com/guide-how-much-sleep-by-age.html",
+        "https://www.jpost.com/health-and-wellness/article-753107",
+        "https://www.medicinenet.com/how_much_sleep_do_kids_need_by_age/article.htm"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes/week",
+      "min": null,
+      "max": null,
+      "healthy_value": "60-120 minutes/week",
+      "notes": "No specific lower bound mentioned; general recommendation for children and young people aged 5-18 years.",
+      "confidence": "low",
+      "sources": [
+        "https://www.emro.who.int/health-education/physical-activity/recommended-levels-of-physical-activity-for-health.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.3,
+      "healthy_value": "(36.8-37.3°C)",
+      "notes": "Oral temperature range; may vary depending on time of day and menstrual cycle",
+      "confidence": "high",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Human_body_temperature",
+        "https://scienceinsights.org/kids-temperature-whats-normal-and-when-to-worry/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://wellfitinsider.com/wellness/body-temperature-chart-by-age/",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "97–100%",
+      "notes": "Note: For individuals with darker skin, a reading of 92% may correspond to a true value lower than that.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://fn.bmj.com/content/102/3/F266",
+        "https://www.namdrc.org/normal-oxygen-saturation-by-age/"
+      ]
+    }
+  }
+}

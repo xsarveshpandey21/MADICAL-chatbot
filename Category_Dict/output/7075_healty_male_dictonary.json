@@ -1,0 +1,193 @@
+{
+  "age_lower": 70,
+  "age_upper": 75,
+  "sex": "male",
+  "generated_at": "2026-10-22T15:40:21",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100",
+      "notes": "Normal range for adults ages 60 to 79; may vary depending on individual health and fitness.",
+      "confidence": "high",
+      "sources": [
+        "https://everagewell.com/heart-rate-chart-for-seniors-resting-pulse-ranges/",
+        "https://seniorsite.org/resource/normal-resting-heart-rate-by-age-for-seniors",
+        "https://www.healthly.io/en/heart/pulse-rate-age/70-years/",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": 120,
+      "max": 80,
+      "healthy_value": "(91-119/61-79) mm Hg",
+      "notes": "At or below 120 over 80 is considered ideal blood pressure for all adults, regardless of age or sex.",
+      "confidence": "high",
+      "sources": [
+        "https://cardi.health/blog/normal-blood-pressure-for-a-70-year-old/",
+        "https://www.caring.com/resources/elderly-blood-pressure-guide",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute (bpm)",
+      "min": 14,
+      "max": 20,
+      "healthy_value": "14-20",
+      "notes": "Normal range for an older adult at rest; may increase with exertion",
+      "confidence": "high",
+      "sources": [
+        "https://geriatricswithaloha.com/respiratory-rate-what-is-normal-in-older-adults/",
+        "https://snhhealthcare.com/what-is-an-older-person-s-typical-rate-of-respiration.html",
+        "https://www.droracle.ai/articles/489885/what-are-the-normal-values-for-geriatric-vital-signs"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body Composition",
+      "unit": "kg/m²",
+      "min": null,
+      "max": 29.9,
+      "healthy_value": "(23-27.9)",
+      "notes": "BMI percentiles for older men at 70-Year-Old are: 5th percentile: 20.8, 25th percentile: 23.8, 50th percentile (median): 26.8, 75th percentile: 30.2, 95th percentile: 35.5",
+      "confidence": "low",
+      "sources": [
+        "https://bmicalculatorweb.com/senior-bmi-calculator.html",
+        "https://seniorsite.org/resource/is-your-weight-healthy-a-senior-mans-guide-to-weight-charts",
+        "https://www.lifemeasure.com/bmi-charts/men/70-years-old"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "cm",
+      "min": null,
+      "max": 117.1,
+      "healthy_value": "97-117 cm",
+      "notes": "Waist circumference generally rises through middle and older age before easing in the 80+ bracket.",
+      "confidence": "high",
+      "sources": [
+        "https://bodytypecalculator.org/body-measurements-chart/",
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://gainframe.app/blog/average-waist-size-men/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "Normal",
+      "notes": "Adults between 50 and 70 years without diabetes generally still have a normal fasting blood glucose of 70-99 mg/dL. The difference after age 65 is usually in the treatment target for people with diabetes, where doctors may accept slightly higher readings to reduce the risk of hypoglycemia.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://rungtahospital.com/blood-sugar-level-chart/",
+        "https://seniorsite.org/resource/normal-blood-sugar-levels-chart-by-age-simple-guide-for-seniors"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": 5.7,
+      "healthy_value": "Below 5.7%",
+      "notes": "General range for adults of any age; may be adjusted based on individual health status and risk factors.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-is-normal-hba1c-by-age-key-ranges-by-group/",
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Total Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "(Below 100 mg/dL)",
+      "notes": "Total cholesterol levels below 200 mg/dL are generally considered normal for most adults of any age.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age"
+      ]
+    },
+    "Low-Density Lipoprotein (LDL) Cholesterol": {
+      "category": "Blood Work",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 100,
+      "healthy_value": "below 100 mg/dL",
+      "notes": "LDL below this value is generally considered healthy for men in this age group.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.acibademhealthpoint.com/blog/normal-ldl-cholesterol-by-age-charts-ranges-and-what-your-numbers-mean/"
+      ]
+    },
+    "High-Density Lipoprotein (HDL) Cholesterol": {
+      "category": "Blood Work",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 100,
+      "healthy_value": "40-100 mg/dL",
+      "notes": "A healthy HDL range for adult males is 40 mg/dL and for adult females 50 mg/dL.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.emedicinehealth.com/what_is_a_normal_cholesterol_level_by_age/article_em.htm",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age"
+      ]
+    },
+    "Fasting Blood Sugar": {
+      "category": "Blood Work",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Normal for adults between 50 and 70 years without diabetes; may be slightly higher after age 65.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://www.nutrisense.io/blog/blood-sugar-level-charts"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h)",
+      "min": null,
+      "max": 8,
+      "healthy_value": "7-8 hours",
+      "notes": "Individual needs may vary based on genetics, health, and activity level; quality matters as much as quantity.",
+      "confidence": "high",
+      "sources": [
+        "https://vitalspage.com/articles/how-much-sleep-do-older-adults-need",
+        "https://www.thensf.org/wp-content/uploads/2022/12/NSF-2022-OlderAdults-Report-Digital.pdf"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes per week",
+      "min": null,
+      "max": null,
+      "healthy_value": "150-75 minutes of moderate-intensity aerobic activity or an equivalent combination of moderate- and vigorous-intensity activity",
+      "notes": "No caveats mentioned in the sources.",
+      "confidence": "high",
+      "sources": [
+        "https://seniorsite.org/resource/the-ultimate-guide-to-exercise-for-seniors-over-70",
+        "https://www.calendar-uk.co.uk/frequently-asked-questions/what-should-a-70-year-old-be-able-to-do-physically",
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/index.html",
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/what-counts.html",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-older-adults/",
+        "https://www.who.int/docs/default-source/physical-activity/information-sheet-global-recommendations-on-physical-activity-for-health/physical-activity-recommendations-65years.pdf"
+      ]
+    }
+  }
+}

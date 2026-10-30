@@ -1,0 +1,192 @@
+{
+  "age_lower": 70,
+  "age_upper": 75,
+  "sex": "female",
+  "generated_at": "2026-10-22T18:48:02",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100",
+      "notes": "Normal range for adult women of any age; average values vary by age group.",
+      "confidence": "high",
+      "sources": [
+        "https://everagewell.com/heart-rate-chart-for-seniors-resting-pulse-ranges/",
+        "https://seniorsite.org/resource/normal-resting-heart-rate-by-age-for-seniors",
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 130,
+      "healthy_value": "(Below 120/80)",
+      "notes": "Readings up to 130/80 mm Hg are considered acceptable under current guidelines.",
+      "confidence": "high",
+      "sources": [
+        "https://cardi.health/blog/normal-blood-pressure-for-a-70-year-old/",
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.caring.com/resources/elderly-blood-pressure-guide",
+        "https://www.clevelandheart.com/blood-pressure-chart-by-age/"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "14-20 bpm",
+      "notes": "Individual variations are normal, and your fitness level and health status can affect these ranges.",
+      "confidence": "low",
+      "sources": [
+        "https://geriatricswithaloha.com/respiratory-rate-what-is-normal-in-older-adults/",
+        "https://snhhealthcare.com/what-is-an-older-person-s-typical-rate-of-respiration.html",
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 29.9,
+      "healthy_value": "24.9 - 29.9",
+      "notes": "BMI is a screening tool and does not directly measure body fat, muscle, bone density, or overall health. For women over 70, BMI can be more useful when reviewed with other health factors.",
+      "confidence": "low",
+      "sources": [
+        "https://bmicalculatorweb.com/senior-bmi-calculator.html",
+        "https://seniorsite.org/resource/the-doctor-approved-weight-chart-for-senior-women-with-bmi-guide",
+        "https://tools.60andover.net/weight-chart-for-women-over-70/"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "centimeters",
+      "min": null,
+      "max": 112.6,
+      "healthy_value": "Below 35 inches or half of height",
+      "notes": "Health guidance flags waists over 35 inches in women as elevated risk, and health organizations flag 80 cm (about 31.5 inches) as the point where metabolic risks begin to rise.",
+      "confidence": "low",
+      "sources": [
+        "https://biologyinsights.com/average-waist-size-for-women-by-age-and-health-risk/",
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://gainframe.app/blog/average-waist-size-women/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 140,
+      "healthy_value": "(70-99 mg/dL)",
+      "notes": "Normal without diabetes; may be slightly higher for seniors with diabetes",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://seniorsite.org/resource/normal-blood-sugar-levels-chart-by-age-simple-guide-for-seniors",
+        "https://www.simplehealthmedicine.com/2026/07/normal-blood-sugar-levels-by-age.html"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": 6.0,
+      "healthy_value": "5.5-6.0%",
+      "notes": "For someone without diabetes, A1C levels tend to sit between roughly 5.5% and 6.0% at age 70.",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://biologyinsights.com/what-is-a-normal-a1c-level-for-a-70-year-old/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "below 200",
+      "notes": "Total cholesterol levels should stay under this range for adults 20 and older, with tighter goals when risk factors are present.",
+      "confidence": "high",
+      "sources": [
+        "https://nutritionhealthinfo.com/what-should-cholesterol-levels-be-by-age/",
+        "https://seniorsite.org/resource/cholesterol-levels-by-age-chart-for-seniors",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "May be affected by dehydration or large fluid intake before blood draw, and high altitude living can raise baseline hemoglobin.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h)",
+      "min": null,
+      "max": 8,
+      "healthy_value": "7-8 hours",
+      "notes": "Prioritizing a fixed wake time, avoiding long naps and evening stimulants, and watching for medical red flags like sleep apnea.",
+      "confidence": "high",
+      "sources": [
+        "https://seniorsleepinstitute.com/normal-sleep-schedule-70-year-old/",
+        "https://vitalspage.com/articles/how-much-sleep-do-older-adults-need",
+        "https://www.thensf.org/wp-content/uploads/2022/12/NSF-2022-OlderAdults-Report-Digital.pdf"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes (min) per week",
+      "min": null,
+      "max": 150,
+      "healthy_value": "75-150 minutes/week",
+      "notes": "Moderate-intensity aerobic physical activity is recommended for females aged 70-75 years.",
+      "confidence": "high",
+      "sources": [
+        "https://seniorsite.org/resource/the-ultimate-guide-to-exercise-for-seniors-over-70",
+        "https://vitalspage.com/articles/how-much-exercise-do-seniors-really-need-each-week",
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/what-counts.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "No specific caveats mentioned in the sources.",
+      "confidence": "high",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://medpatsolutions.com/blogs/news/what-is-normal-spo2-level-for-seniors",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C (97°F-99°F)",
+      "notes": "Lower baseline temperature for older adults, may not develop high fevers as readily.",
+      "confidence": "low",
+      "sources": [
+        "https://www.after50health.com/body-fever-temperature-in-older-adults-whats-normal-and-when-to-worry-for-seniors.html",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.nursenextdoor.com/blog/clinical-perspectives-on-body-temperature-guide"
+      ]
+    }
+  }
+}

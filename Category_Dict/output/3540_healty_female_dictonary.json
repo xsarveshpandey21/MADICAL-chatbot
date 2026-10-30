@@ -1,0 +1,199 @@
+{
+  "age_lower": 35,
+  "age_upper": 40,
+  "sex": "female",
+  "generated_at": "2026-10-22T17:14:22",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100",
+      "notes": "Normal resting heart rate for women in this age group; may be influenced by factors such as fitness level, sleep quality, and stress levels.",
+      "confidence": "high",
+      "sources": [
+        "https://bodly.app/blog/resting-heart-rate-by-age",
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html",
+        "https://www.federa.org/heart-health/normal-heart-rate-for-women/"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 117,
+      "healthy_value": "110-116 / 70-73 mmHg",
+      "notes": "Age range: 21-35 years, based on [Source 1 and Source 3]",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20",
+      "notes": "Normal respiratory rate for healthy adults, with individual variations possible.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.medicalnewstoday.com/articles/324409",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "kg",
+      "min": null,
+      "max": 74,
+      "healthy_value": "55-74 kg",
+      "notes": "Women carry 6–11% more body fat than men at the same BMI value, so a BMI of 25 in a woman may represent a slightly higher fat percentage than the same BMI in a man.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/healthy-weight-range.html",
+        "https://bmihealthchecker.com/articles/bmi-chart-women",
+        "https://bmihealthchecker.com/articles/healthy-weight-ranges"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "centimeters",
+      "min": null,
+      "max": 35,
+      "healthy_value": "Under half your height",
+      "notes": "Height matters too: at 5'11",
+      "confidence": "low",
+      "sources": [
+        "https://biologyinsights.com/average-waist-size-for-women-by-age-and-health-risk/",
+        "https://bmicalculatorweb.com/blog/healthy-bmi-for-women.html",
+        "https://gainframe.app/blog/average-waist-size-women/",
+        "https://inresrisk.com/waist-size-chart-women",
+        "https://www.droracle.ai/articles/372086/what-is-the-normal-waist-circumference-for-an-adult"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": 90,
+      "max": 130,
+      "healthy_value": "normal",
+      "notes": "Maintaining blood sugar within this range helps prevent long-term health complications.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://popsdiabetescare.com/normal-blood-sugar-levels-by-age-a-complete-chart-guide/",
+        "https://rungtahospital.com/blood-sugar-level-chart/",
+        "https://www.gbchealth.org/blog/female-normal-sugar-level/"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": 6.1,
+      "healthy_value": "4.0-6.1%",
+      "notes": "Note: The range is based on Source 3 and Source 5, which provide similar guidelines for women.",
+      "confidence": "medium",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://a1ccalculator.app/tool/a1c-levels-by-age-chart",
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "(0-5.5 mmol/L) or < 200 mg/dL",
+      "notes": "Average levels often rise around menopause, and post-menopausal women should be particularly vigilant about cholesterol monitoring.",
+      "confidence": "low",
+      "sources": [
+        "https://health-aspire.com/blog/cholesterol-levels-by-age/",
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://nutritionhealthinfo.com/what-should-cholesterol-levels-be-by-age/",
+        "https://www.medicalnewstoday.com/articles/315900"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "Ranges may vary slightly depending on laboratory equipment and population data.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/womens-hemoglobin-levels-normal-low-high-ranges/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h)",
+      "min": null,
+      "max": 8,
+      "healthy_value": "7-8 hours",
+      "notes": "Recommendation may vary depending on individual factors such as menstrual cycle, pregnancy, and hormonal changes.",
+      "confidence": "low",
+      "sources": [
+        "https://neurolaunch.com/how-many-hours-of-sleep-do-women-need/",
+        "https://scienceinsights.org/how-many-hours-of-sleep-do-women-actually-need/",
+        "https://www.federa.org/sleep-recovery/how-many-hours-of-sleep-do-women-need/"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes per week",
+      "min": null,
+      "max": 300,
+      "healthy_value": "150-300 minutes/week",
+      "notes": "For additional health benefits, increase moderate-intensity physical activity to 300 minutes/week.",
+      "confidence": "high",
+      "sources": [
+        "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "https://www.cdc.gov/physical-activity-basics/guidelines/index.html",
+        "https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/aha-recs-for-physical-activity-in-adults",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "May require recheck protocol for readings below 95% or at borderline levels (91-94%). May warrant further evaluation in children with persistent readings between 95-96%. Adults over 70 may experience lower oxygen saturation due to decreased lung elasticity.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://momentarylab.com/blog/healthcare-devices/pulse-oximeter-readings-chart",
+        "https://www.exahealth.com/insights/spo2-oxygen-saturation-normal-range"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Average temperature may be lower due to modern research; individual values can vary.",
+      "confidence": "low",
+      "sources": [
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://thebodydetectives.com/normal-body-temperature/",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    }
+  }
+}

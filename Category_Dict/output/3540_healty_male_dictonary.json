@@ -1,0 +1,171 @@
+{
+  "age_lower": 35,
+  "age_upper": 40,
+  "sex": "male",
+  "generated_at": "2026-10-22T13:28:57",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "notes": "Normal range for most adults; may vary with health conditions and medications.",
+      "confidence": "high",
+      "sources": [
+        "https://bodly.app/blog/resting-heart-rate-by-age",
+        "https://my.clevelandclinic.org/health/diagnostics/heart-rate",
+        "https://themetabolicjournal.com/biomarkers/resting-heart-rate",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm",
+        "https://www.medicinenet.com/what_is_a_good_resting_heart_rate_by_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": null,
+      "max": 120,
+      "healthy_value": "Below 120/80 mmHg",
+      "notes": "According to current AHA guidelines, normal blood pressure for adults should ideally be below 120/80 for all adults, regardless of age.",
+      "confidence": "high",
+      "sources": [
+        "https://www.betterhealthfacts.com/2014/02/normal-blood-pressure-for-men.html",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20",
+      "notes": "Individual variations are normal, and fitness level and health status can affect these ranges.",
+      "confidence": "high",
+      "sources": [
+        "https://breathsperminute.app/respiratory-rate-chart",
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 26.0,
+      "healthy_value": "18.5–24.9",
+      "notes": "Optimal BMI range shifts slightly as men age, with older men having better health outcomes at higher BMI values.",
+      "confidence": "high",
+      "sources": [
+        "https://healthcalchub.net/bmi-for-men/",
+        "https://healthybmicheck.com/normal-bmi-for-men"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "centimeters",
+      "min": null,
+      "max": 109.9,
+      "healthy_value": "Below 110 cm",
+      "notes": "Middle 50% measure for men in their 30s, not a clinical risk category or treatment target.",
+      "confidence": "high",
+      "sources": [
+        "https://bodytypecalculator.org/body-measurements-chart/",
+        "https://denstarfitness.com/body-measurement-chart/",
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://nutritionhealthinfo.com/what-should-my-waist-circumference-be/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "Normal",
+      "notes": "Healthy adult men typically have a fasting blood glucose of 70-99 mg/dL, with treatment targets below 140 mg/dL and an A1C below 5.7%.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://rungtahospital.com/blood-sugar-level-chart/",
+        "https://www.simplehealthmedicine.com/2026/07/normal-blood-sugar-levels-by-age.html"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "Acceptable HbA1c levels vary by age; for people with diabetes, targets are individualized based on age and health factors.",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://a1ccalculator.app/tool/a1c-levels-by-age-chart",
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 5.0,
+      "healthy_value": "Below 5.0 mmol/L",
+      "notes": "Normal total cholesterol for a man in his 40s, with LDL below 3.0 mmol/L.",
+      "confidence": "high",
+      "sources": [
+        "https://health-aspire.com/blog/cholesterol-levels-by-age/",
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood",
+      "unit": "grams per deciliter (g/dL)",
+      "min": 13.2,
+      "max": 16.6,
+      "healthy_value": "14-18 g/dL",
+      "notes": "Normal ranges for adult men, with a gap driven primarily by testosterone.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/what-is-a-normal-hemoglobin-level-by-age-and-sex-2/",
+        "https://scienceinsights.org/what-should-hemoglobin-levels-be-by-age/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours",
+      "min": null,
+      "max": 9,
+      "healthy_value": "7-9 hours",
+      "notes": "Most adults function best near the middle of this range.",
+      "confidence": "high",
+      "sources": [
+        "https://health-os.app/en/guides/how-much-sleep-do-you-need/",
+        "https://truevaluecalc.com/sleep-needs-by-age-chart/",
+        "https://vitahealth.fit/health/en/sleep-duration",
+        "https://www.exahealth.com/insights/sleep-duration-normal-range"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes/week",
+      "min": null,
+      "max": 300,
+      "healthy_value": "150-300 minutes of moderate-intensity aerobic activity per week",
+      "notes": "Most adults need at least 150 minutes of moderate-intensity aerobic activity per week, or 75 minutes of vigorous-intensity activity, plus two days of strength training.",
+      "confidence": "high",
+      "sources": [
+        "https://scienceinsights.org/how-much-exercise-per-week-do-you-need-by-age/",
+        "https://www.gale.care/health/how-much-exercise-do-adults-need-per-week",
+        "https://www.preventivemedicinedaily.com/fitness-exercise/how-often-should-you-really-exercise-per-week-science-backed-guidelines-and-best-practices/",
+        "https://www.who.int/docs/default-source/physical-activity/information-sheet-global-recommendations-on-physical-activity-for-health/physical-activity-recommendations-18-64years.pdf?sfvrsn=64edcb56_2",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

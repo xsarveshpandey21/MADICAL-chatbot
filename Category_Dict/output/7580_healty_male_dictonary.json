@@ -1,0 +1,196 @@
+{
+  "age_lower": 75,
+  "age_upper": 80,
+  "sex": "male",
+  "generated_at": "2026-10-22T15:53:18",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-80",
+      "notes": "Healthy resting heart rate for males in this age group is generally considered to be between 60 and 80 bpm. A reading under 60 can also be normal if the individual is physically fit or taking certain medications.",
+      "confidence": "high",
+      "sources": [
+        "https://everagewell.com/heart-rate-chart-for-seniors-resting-pulse-ranges/",
+        "https://seniorsite.org/resource/normal-resting-heart-rate-by-age-for-seniors",
+        "https://www.healthly.io/en/heart/pulse-rate-age/75-years/",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 130,
+      "healthy_value": "<= 120/80 mmHg",
+      "notes": "According to American Heart Association (AHA) and Miami Jewish Health, a normal blood pressure for seniors is at or below 120/80 mmHg. For seniors over 80, the systolic should be between 130-139 and avoid dropping below 130/65 mmHg.",
+      "confidence": "high",
+      "sources": [
+        "https://wellfitinsider.com/seniors/blood-pressure-chart-for-seniors/",
+        "https://www.caring.com/resources/elderly-blood-pressure-guide",
+        "https://www.maxhealthcare.in/blogs/normal-blood-pressure-level-by-age"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute (bpm)",
+      "min": 14,
+      "max": 20,
+      "healthy_value": "14-20",
+      "notes": "Most seniors have a chronic condition such as hypertension, heart disease, atrial fibrillation, or diabetes.",
+      "confidence": "low",
+      "sources": [
+        "https://geriatricswithaloha.com/respiratory-rate-what-is-normal-in-older-adults/",
+        "https://snhhealthcare.com/what-is-an-older-person-s-typical-rate-of-respiration.html",
+        "https://www.droracle.ai/articles/489885/what-are-the-normal-values-for-geriatric-vital-signs"
+      ]
+    },
+    "Body Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Note: The 'normal' range may be lower for seniors due to age-related thermoregulation.",
+      "confidence": "low",
+      "sources": [
+        "https://personalalarms.org/blog/advice/body-temperature-in-the-elderly-whats-too-high-low-just-right",
+        "https://www.after50health.com/fever-temperature-in-seniors-over-65.html",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.nursenextdoor.com/blog/clinical-perspectives-on-body-temperature-guide"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95-100%",
+      "notes": "No age brackets; a reading below 95% should prompt a conversation with your doctor regardless of age.",
+      "confidence": "high",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "cm",
+      "min": null,
+      "max": 94,
+      "healthy_value": "Below 94cm",
+      "notes": "Waist circumference is a risk factor for health issues regardless of BMI.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/blog/cdc-bmi-guidelines-updates.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7027970/",
+        "https://professional.heart.org/en/-/media/PHD-Files/Education/CKMH-Obesity-Measuring-Waist-Circumference_030226.pdf",
+        "https://www.heartfoundation.org.au/your-heart/waist-measurement"
+      ]
+    },
+    "BMI": {
+      "category": "Body Composition",
+      "unit": "kg/m²",
+      "min": null,
+      "max": 29,
+      "healthy_value": "22-27",
+      "notes": "Geriatric medicine specialists suggest this range for adults 65 and older, with a higher floor to account for risks of malnutrition and falls in very lean seniors, and a higher ceiling to incorporate the protection against frailty and malnutrition associated with moderate overweight.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/senior-bmi-calculator.html",
+        "https://uscalculators.com/health/senior-bmi-calculator/",
+        "https://www.lifemeasure.com/bmi-charts/men/75-years-old",
+        "https://www.omnicalculator.com/health/geriatric-bmi"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "normal",
+      "notes": "Factors such as lifestyle, body composition, medications, and underlying health conditions influence blood sugar levels more than biological sex.",
+      "confidence": "high",
+      "sources": [
+        "https://biologyinsights.com/what-is-normal-blood-sugar-for-a-75-year-old-male/",
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": 7.5,
+      "healthy_value": "(5.7-7.5)%",
+      "notes": "Individualized; hypoglycemia risk increases with age, especially in elderly (75+ years)",
+      "confidence": "medium",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://a1c-calculator.net/tools/a1c-by-age/",
+        "https://nutritionhealthinfo.com/what-is-normal-hba1c-by-age/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "(Below 100 mg/dL)",
+      "notes": "LDL levels below 100 mg/dL are generally considered healthy for adults, including men in the 75-80 age group.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://themetabolicjournal.com/biomarkers/cholesterol-levels",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 18,
+      "healthy_value": "(14-18 g/dL)",
+      "notes": "Levels below 13 g/dL may indicate anemia requiring medical evaluation.",
+      "confidence": "high",
+      "sources": [
+        "https://nutritionhealthinfo.com/what-should-my-hemoglobin-be/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.droracle.ai/articles/237767/what-is-the-normal-hemoglobin-hb-range-for-a",
+        "https://www.medicinenet.com/hemoglobin/article.htm"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h) per night",
+      "min": null,
+      "max": 8,
+      "healthy_value": "7-8 hours",
+      "notes": "Individual needs can vary; sleep quality and daytime alertness matter along with the number of hours slept.",
+      "confidence": "high",
+      "sources": [
+        "https://vitalspage.com/articles/how-much-sleep-do-older-adults-need",
+        "https://wellfitinsider.com/seniors/how-much-sleep-do-seniors-need/",
+        "https://www.thensf.org/wp-content/uploads/2022/12/NSF-2022-OlderAdults-Report-Digital.pdf"
+      ]
+    },
+    "Physical Activity Minutes": {
+      "category": "Lifestyle",
+      "unit": "minutes",
+      "min": null,
+      "max": 150,
+      "healthy_value": "75-150 minutes of moderate-intensity aerobic activity per week",
+      "notes": "Consistency beats intensity; at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity per week",
+      "confidence": "high",
+      "sources": [
+        "https://seniorssecrets.com/best-exercises-seniors-over-75-2026/",
+        "https://www.cdc.gov/physical-activity-basics/adding-older-adults/index.html",
+        "https://www.healthline.com/health/everyday-fitness/senior-workouts",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-older-adults/"
+      ]
+    }
+  }
+}

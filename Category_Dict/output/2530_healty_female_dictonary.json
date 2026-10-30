@@ -1,0 +1,199 @@
+{
+  "age_lower": 25,
+  "age_upper": 30,
+  "sex": "female",
+  "generated_at": "2026-10-22T16:47:39",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": 60,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "notes": "Individual variations may occur based on fitness levels and overall health.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-resting-heart-rate-chart-for-women-age-specific-ranges-insights-female.html",
+        "https://www.cardiaccarepc.com/content-hub/normal-heart-rate-for-women-by-age-whats-healthy-and-whats-not",
+        "https://www.healthly.io/en/heart/pulse-rate-age/25-years/",
+        "https://www.medkart.in/blog/normal-heart-rate-by-age/"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "millimeters of mercury (mmHg)",
+      "min": 110,
+      "max": 116,
+      "healthy_value": "(110-116 mmHg)",
+      "notes": "Age group: 25-30 years, Female",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/blood_pressure_reading_range_age_men_women_chart/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20 bpm",
+      "notes": "Individual variations are normal, and fitness level and health status can affect these ranges.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.exahealth.com/insights/respiratory-rate-normal-range",
+        "https://www.medicalnewstoday.com/articles/324409",
+        "https://www.verywellhealth.com/what-is-a-normal-respiratory-rate-2248932"
+      ]
+    },
+    "Body Mass Index (BMI)": {
+      "category": "Body",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 24.9,
+      "healthy_value": "18.5-24.9",
+      "notes": "Women carry more essential fat than men, and the number shifts with age. For women over 50, 20.5–26.0 is often healthier because modest extra weight protects bones and reduces frailty.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/blog/healthy-bmi-for-women.html",
+        "https://bmihealthchecker.com/articles/bmi-chart-women",
+        "https://www.medicalnewstoday.com/articles/bmi-for-women"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body",
+      "unit": "centimeters",
+      "min": null,
+      "max": 32,
+      "healthy_value": "25-32 cm",
+      "notes": "Based on Source 2: Height Healthiest Waist Size chart for women by height, with a healthy waist circumference range of 25-32 inches (64-80 cm) at 5'3\" (160 cm) height.",
+      "confidence": "low",
+      "sources": [
+        "https://bonytobombshell.com/the-ideal-womens-waist-size-for-health-attractiveness/",
+        "https://denstarfitness.com/ideal-waist-size-for-a-woman/",
+        "https://inresrisk.com/waist-size-chart-women",
+        "https://www.healthline.com/health/average-waist-size-for-women"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Normal fasting blood sugar for women across age groups, with a modest rise common during perimenopause and the first years of menopause.",
+      "confidence": "high",
+      "sources": [
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://prediabetescenters.com/diet-and-nutrition/female-blood-sugar-levels-chart-by-age/",
+        "https://www.nutrisense.io/blog/blood-sugar-level-charts"
+      ]
+    },
+    "Hemoglobin A1c (HbA1c)": {
+      "category": "Blood",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "Below 5.7%",
+      "notes": "No diabetes risk",
+      "confidence": "high",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://www.medanta.org/patient-education-blog/hba1c-test-normal-range-chart-and-what-it-means",
+        "https://www.myhsn.co.uk/top-tip/normal-glucose-and-hba1c-by-age-gender-and-time-of-day/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "(125-200 mg/dL)",
+      "notes": "Total cholesterol should be less than 200 mg/dL for most healthy adults 20 and older.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://nutritionhealthinfo.com/what-should-cholesterol-levels-be-by-age/",
+        "https://www.healthline.com/health/high-cholesterol/levels-by-age",
+        "https://www.verywellhealth.com/cholesterol-levels-by-age-chart-5190176"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 15.5,
+      "healthy_value": "12-15.5 g/dL",
+      "notes": "Pregnancy lowers the bar to 11.0–14.0 g/dL, and endurance athletes often sit closer to 13.5 g/dL.",
+      "confidence": "high",
+      "sources": [
+        "https://nutritionhealthinfo.com/what-should-my-hemoglobin-be/",
+        "https://www.droracle.ai/articles/392973/what-are-the-normal-ranges-for-hematocrit-hct-and",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.medicinenet.com/hemoglobin/article.htm",
+        "https://www.verywellhealth.com/hemoglobin-level-5211543"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h)",
+      "min": null,
+      "max": 9,
+      "healthy_value": "7.5-9 hours",
+      "notes": "Based on Federa.org and National Sleep Foundation recommendations, women in this age group need 7.5-9 hours of sleep per night.",
+      "confidence": "high",
+      "sources": [
+        "https://getsleepcalculator.net/how-much-sleep-do-i-need",
+        "https://www.federa.org/sleep-recovery/how-many-hours-of-sleep-do-women-need/"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "Lifestyle",
+      "unit": "minutes per week",
+      "min": null,
+      "max": null,
+      "healthy_value": "75-300 minutes/week",
+      "notes": "For adults aged 18–64 years, including activities that strengthen muscle and bone.",
+      "confidence": "low",
+      "sources": [
+        "https://www.who.int/initiatives/behealthy/physical-activity",
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "95–100%",
+      "notes": "For healthy adults and children (1+ years), normal SpO2 is 95–100%. For newborns in the first 10 minutes of life, 90–95% is part of the normal transition.",
+      "confidence": "high",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://seniorsite.org/resource/normal-blood-oxygen-levels-by-age-for-seniors",
+        "https://www.healthyjeenasikho.com/post/normal-oxygen-level-in-blood-spo-chart-by-age-symptoms-when-to-act",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.5-37.2°C",
+      "notes": "Normal body temperature for women in this age group; note that the range may vary slightly depending on the measurement method and time of day.",
+      "confidence": "high",
+      "sources": [
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://en.wikipedia.org/wiki/Human_body_temperature",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    }
+  }
+}

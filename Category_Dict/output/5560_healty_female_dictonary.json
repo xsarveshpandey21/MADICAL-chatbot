@@ -1,0 +1,196 @@
+{
+  "age_lower": 55,
+  "age_upper": 60,
+  "sex": "female",
+  "generated_at": "2026-10-22T18:04:17",
+  "model": "llama3.2:3b",
+  "parameters": {
+    "Heart Rate": {
+      "category": "Vitals",
+      "unit": "beats per minute (bpm)",
+      "min": null,
+      "max": 100,
+      "healthy_value": "60-100",
+      "notes": "Normal resting heart rate for women of all ages.",
+      "confidence": "high",
+      "sources": [
+        "https://www.calculatemyheartrate.com/blog/resting-heart-rate-chart-women-by-age.html",
+        "https://www.federa.org/heart-health/normal-heart-rate-for-women/"
+      ]
+    },
+    "Blood Pressure": {
+      "category": "Vitals",
+      "unit": "mmHg",
+      "min": null,
+      "max": 120,
+      "healthy_value": "Less than 120/80 mmHg",
+      "notes": "Normal blood pressure for women of this age group is less than 120/80 mmHg.",
+      "confidence": "high",
+      "sources": [
+        "https://drtashahealth.com/normal-blood-pressure-women-over-50/",
+        "https://www.after50health.com/blood-pressure-chart-by-age-for-women-age-specific-ranges-recommendations-female.html",
+        "https://www.health.com/normal-blood-pressure-for-women-by-age-11717706",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "Vitals",
+      "unit": "breaths per minute",
+      "min": null,
+      "max": 20,
+      "healthy_value": "12-20 bpm",
+      "notes": "Individual variations are normal, and your fitness level and health status can affect these ranges.",
+      "confidence": "high",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.exahealth.com/insights/respiratory-rate-normal-range",
+        "https://www.medicalnewstoday.com/articles/324409"
+      ]
+    },
+    "Body Temperature": {
+      "category": "Vitals",
+      "unit": "°C",
+      "min": null,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2°C",
+      "notes": "Note: The range may vary slightly depending on the time of day and individual factors.",
+      "confidence": "high",
+      "sources": [
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/",
+        "https://www.nursenextdoor.com/blog/clinical-perspectives-on-body-temperature-guide"
+      ]
+    },
+    "SpO2": {
+      "category": "Vitals",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "(93-97%)",
+      "notes": "Elderly Adults (70+ years): Normal SpO2 range may be slightly lower due to age-related changes in lung elasticity and ventilation-perfusion mismatching.",
+      "confidence": "low",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://blog.truneb.com/pulse-oximeter-readings-chart-normal-range/",
+        "https://chatppg.com/blog/blood-oxygen-level-chart"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "Body Composition",
+      "unit": "cm",
+      "min": null,
+      "max": 88,
+      "healthy_value": "Below 88 cm",
+      "notes": "Based on Western clinical practice thresholds, crossing this value signals a meaningful jump in risk for heart disease, type 2 diabetes, and early death.",
+      "confidence": "high",
+      "sources": [
+        "https://criticalbody.com/average-waist-size/",
+        "https://gainframe.app/blog/average-waist-size-women/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/"
+      ]
+    },
+    "BMI": {
+      "category": "Body Composition",
+      "unit": "kg/m^2",
+      "min": null,
+      "max": 26.0,
+      "healthy_value": "18.5–24.9",
+      "notes": "Women over 50: A BMI of 20.5–26.0 may be healthier — modest extra weight protects bones and reduces frailty.",
+      "confidence": "high",
+      "sources": [
+        "https://bmicalculatorweb.com/blog/healthy-bmi-for-women.html",
+        "https://bmihealthchecker.com/articles/bmi-chart-women",
+        "https://calculaterpro.com/bmi/female-age-bmi-chart/"
+      ]
+    },
+    "Glucose": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "notes": "Normal fasting glucose levels for women aged 55-60 years. May vary depending on individual health conditions or medications.",
+      "confidence": "high",
+      "sources": [
+        "https://int.livhospital.com/female-blood-sugar-levels-chart-by-age-complete-guide/",
+        "https://www.gbchealth.org/blog/age-50-70-sugar-level-chart-age-wise/"
+      ]
+    },
+    "HbA1c": {
+      "category": "Blood Work",
+      "unit": "%",
+      "min": null,
+      "max": null,
+      "healthy_value": "4.0-5.8%",
+      "notes": "Note: These values are based on general guidelines for women aged 40-59 years.",
+      "confidence": "low",
+      "sources": [
+        "https://a1c-calculator.net/guides/normal-a1c-range/",
+        "https://a1ccalculator.app/tool/a1c-levels-by-age-chart",
+        "https://www.everlywell.com/blog/hba1c/what-is-normal-hba1c-by-age/"
+      ]
+    },
+    "Cholesterol": {
+      "category": "Blood Work",
+      "unit": "milligrams per deciliter (mg/dL)",
+      "min": null,
+      "max": 200,
+      "healthy_value": "(50-100 mg/dL)",
+      "notes": "Total cholesterol levels for women between 20 and 65 years old, with an optimal range of less than 5.2 mmol/L.",
+      "confidence": "high",
+      "sources": [
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.after50health.com/cholesterol-levels-chart-by-age-and-gender-whats-normal-and-whats-not.html",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart",
+        "https://www.womansworld.com/wellness/heart-health/cholesterol-levels-by-age-chart-whats-healthy-or-high"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "Blood Work",
+      "unit": "grams per deciliter (g/dL)",
+      "min": null,
+      "max": 16,
+      "healthy_value": "12-16 g/dL",
+      "notes": "May be affected by dehydration or high altitude living, and may vary slightly depending on laboratory.",
+      "confidence": "medium",
+      "sources": [
+        "https://scienceinsights.org/what-are-normal-hemoglobin-levels-by-age-and-sex/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.eurekahealth.com/resources/normal-hemoglobin-levels-for-women-by-age-en",
+        "https://www.verywellhealth.com/hemoglobin-level-5211543"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "Lifestyle",
+      "unit": "hours (h) per night",
+      "min": null,
+      "max": 9,
+      "healthy_value": "7-9 hours",
+      "notes": "Based on National Sleep Foundation recommendations for adults aged 18-64 years, with no separate target for women.",
+      "confidence": "high",
+      "sources": [
+        "https://health-os.app/en/guides/how-much-sleep-do-you-need/",
+        "https://mymedicineadvisor.com/health/hours-of-sleep-by-age/",
+        "https://sleepscorecalculator.com/sleep-score-by-age.html",
+        "https://vitahealth.fit/health/en/sleep-duration"
+      ]
+    },
+    "Physical Activity Minutes": {
+      "category": "Lifestyle",
+      "unit": "minutes (min) per week",
+      "min": null,
+      "max": null,
+      "healthy_value": "150-300 minutes/week",
+      "notes": "For adults aged 18–64 years, with no specific distinction between male and female ranges provided in the sources.",
+      "confidence": "low",
+      "sources": [
+        "https://grokipedia.com/page/Physical_activity_guidelines_for_adults",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5067973/",
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}

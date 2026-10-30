@@ -1,0 +1,447 @@
+{
+  "age_lower": 20,
+  "age_upper": 25,
+  "sex": "male",
+  "condition": "dengue",
+  "generated_at": "2026-10-23T15:42:43",
+  "cleaned_at": "2026-10-23T15:58:25",
+  "cleaning_summary": {
+    "kept": 12,
+    "filled": 0,
+    "corrected": 3,
+    "added": 0,
+    "low_confidence_in": 0
+  },
+  "parameters": {
+    "Body Temperature": {
+      "kind": "numeric",
+      "category": "vitals",
+      "unit": "°C",
+      "min": 38.5,
+      "max": 40.2,
+      "dengue_value": "38.5-40.2 °C",
+      "severe_value": "Defervescence (drop to <= 38 °C) on days 3-7 marks the critical phase",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "min": 38.0,
+        "max": 40.5,
+        "source": "WHO Dengue guidelines 2009 / CDC clinical guidance"
+      },
+      "scraped_severe_value": "> 40.0 °C or rapid hypothermia (< 36.0 °C) marking onset of critical phase",
+      "scraped_confidence": "high",
+      "notes": "Fever typically lasts 2–7 days, often displaying a saddleback (biphasic) curve. Abrupt defervescence frequently heralds the critical phase.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Platelet Count": {
+      "kind": "numeric",
+      "category": "blood",
+      "unit": "cells/µL",
+      "min": 20000,
+      "max": 90000,
+      "dengue_value": "20000-90000 cells/µL",
+      "severe_value": "< 20,000 cells/µL, or a rapid drop together with rising hematocrit",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "min": 20000,
+        "max": 100000,
+        "source": "WHO Dengue guidelines 2009 (thrombocytopenia <= 100,000/µL)"
+      },
+      "scraped_severe_value": "< 20,000 cells/µL (Spontaneous internal or mucosal hemorrhage risk)",
+      "scraped_confidence": "high",
+      "notes": "Progressive drop below 100,000 cells/µL is a cardinal WHO alert sign. Nadir typically occurs between days 4 and 6 of illness.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "WBC Count": {
+      "kind": "numeric",
+      "category": "blood",
+      "unit": "cells/µL",
+      "min": 1500,
+      "max": 5000,
+      "dengue_value": "1500-5000 cells/µL",
+      "severe_value": "Progressive leukopenia (< 2,000 cells/µL) often precedes the critical phase",
+      "confidence": "verified",
+      "status": "corrected",
+      "reference": {
+        "min": 2000,
+        "max": 5000,
+        "source": "WHO Dengue guidelines 2009 (leukopenia <= 5,000/µL)"
+      },
+      "scraped_severe_value": "< 1,200 cells/µL or leukocytosis in severe hemorrhage",
+      "scraped_confidence": "high",
+      "issues": [
+        "max 3800 cells/µL differs from reference 5000 by more than 800, replaced"
+      ],
+      "original": {
+        "unit": "cells/µL",
+        "min": 1500,
+        "max": 3800,
+        "dengue_value": "1,500-3,800 cells/µL (Prominent leukopenia with atypical lymphocytes)",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Hematocrit": {
+      "kind": "numeric",
+      "category": "blood",
+      "unit": "%",
+      "min": 45,
+      "max": 54,
+      "dengue_value": "45-54 %",
+      "severe_value": ">= 20 % rise from the patient's baseline (plasma leakage)",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "min": 42,
+        "max": 55,
+        "source": "WHO Dengue guidelines 2009 (haemoconcentration >= 20 %)"
+      },
+      "scraped_severe_value": "> 52.0% (Urgent signal of third-space plasma loss and impending shock)",
+      "scraped_confidence": "high",
+      "notes": "A rising hematocrit concurrent with rapidly decreasing platelet count is the most reliable clinical indicator of plasma leakage into serous cavities.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Heart Rate": {
+      "kind": "numeric",
+      "category": "vitals",
+      "unit": "bpm",
+      "min": 80,
+      "max": 115,
+      "dengue_value": "80-115 bpm",
+      "severe_value": "Tachycardia with weak pulse and cold extremities = compensated shock",
+      "confidence": "verified",
+      "status": "corrected",
+      "reference": {
+        "min": 80,
+        "max": 120,
+        "source": "WHO Dengue guidelines 2009 (warning signs of shock)"
+      },
+      "scraped_severe_value": "Thready rapid pulse > 125 bpm coinciding with narrow pulse pressure (<= 20 mmHg)",
+      "scraped_confidence": "high",
+      "issues": [
+        "min 52 bpm differs from reference 80 by more than 10, replaced"
+      ],
+      "original": {
+        "unit": "bpm",
+        "min": 52,
+        "max": 115,
+        "dengue_value": "52-115 bpm (Tachycardia in febrile phase; relative bradycardia during convalescence)",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Systolic Blood Pressure": {
+      "kind": "numeric",
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 88,
+      "max": 118,
+      "dengue_value": "88-118 mmHg",
+      "severe_value": "Pulse pressure <= 20 mmHg or systolic < 90 mmHg (adults) = dengue shock",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "min": 90,
+        "max": 120,
+        "source": "WHO Dengue guidelines 2009"
+      },
+      "scraped_severe_value": "Pulse pressure <= 20 mmHg (e.g. 90/75 mmHg) or undetectable diastolic pressure (DSS)",
+      "scraped_confidence": "high",
+      "notes": "Narrowing pulse pressure (systolic minus diastolic <= 20 mmHg) is the primary hallmark of impending Dengue Shock Syndrome (DSS).",
+      "issues": [
+        "renamed from 'Blood Pressure'"
+      ],
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Headache": {
+      "kind": "symptom",
+      "category": "symptom",
+      "prevalence_percent": 84,
+      "dengue_value": "present in about 84 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          60,
+          95
+        ],
+        "default": 80,
+        "source": "WHO 2009; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "One of the most frequently reported acute symptoms across adult dengue cohorts.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Retro-orbital Pain": {
+      "kind": "symptom",
+      "category": "symptom",
+      "prevalence_percent": 70,
+      "dengue_value": "present in about 70 % of dengue patients",
+      "confidence": "reference",
+      "status": "corrected",
+      "reference": {
+        "prevalence_range": [
+          30,
+          70
+        ],
+        "default": 50,
+        "source": "WHO 2009; dengue case series (less often reported by young children)"
+      },
+      "scraped_confidence": "high",
+      "issues": [
+        "prevalence 74.0 % outside expected 30-70 %, set to 70 %"
+      ],
+      "original": {
+        "prevalence_percent": 74.0,
+        "dengue_value": "Severe retro-bulbar pain exacerbated by eye movement",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Muscle and Joint Pain": {
+      "kind": "symptom",
+      "category": "symptom",
+      "prevalence_percent": 82,
+      "dengue_value": "present in about 82 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          60,
+          95
+        ],
+        "default": 75,
+        "source": "WHO 2009; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "Severe musculoskeletal pain predominantly in lumbar spine, knees, and shoulders.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Nausea or Vomiting": {
+      "kind": "symptom",
+      "category": "symptom",
+      "prevalence_percent": 64,
+      "dengue_value": "present in about 64 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          40,
+          80
+        ],
+        "default": 55,
+        "source": "WHO 2009; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "Very common in early febrile phase; progression to >= 3 episodes/day is a warning sign.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Skin Rash": {
+      "kind": "symptom",
+      "category": "symptom",
+      "prevalence_percent": 56,
+      "dengue_value": "present in about 56 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          20,
+          60
+        ],
+        "default": 40,
+        "source": "WHO 2009; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "Usually emerges on day 3–5 or during defervescence, may cause mild pruritus.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Severe Abdominal Pain": {
+      "kind": "symptom",
+      "category": "warning sign",
+      "prevalence_percent": 32,
+      "dengue_value": "present in about 32 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          10,
+          40
+        ],
+        "default": 20,
+        "source": "WHO 2009 warning signs; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "WHO warning sign indicating plasma leakage, gastrointestinal bleeding, or acalculous cholecystitis.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Persistent Vomiting": {
+      "kind": "symptom",
+      "category": "warning sign",
+      "prevalence_percent": 26,
+      "dengue_value": "present in about 26 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          5,
+          30
+        ],
+        "default": 15,
+        "source": "WHO 2009 warning signs; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "Critical warning sign necessitating hospital admission for intravenous rehydration.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Mucosal Bleeding": {
+      "kind": "symptom",
+      "category": "warning sign",
+      "prevalence_percent": 22,
+      "dengue_value": "present in about 22 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          5,
+          30
+        ],
+        "default": 15,
+        "source": "WHO 2009 warning signs; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "WHO warning sign reflecting severe thrombocytopenia and vascular fragility.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Lethargy or Restlessness": {
+      "kind": "symptom",
+      "category": "warning sign",
+      "prevalence_percent": 28,
+      "dengue_value": "present in about 28 % of dengue patients",
+      "confidence": "verified",
+      "status": "kept",
+      "reference": {
+        "prevalence_range": [
+          5,
+          30
+        ],
+        "default": 15,
+        "source": "WHO 2009 warning signs; dengue case series"
+      },
+      "scraped_confidence": "high",
+      "notes": "Key neurological warning sign indicating impending dengue shock syndrome.",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    }
+  },
+  "unmapped_parameters": {
+    "AST (Aspartate Aminotransferase)": {
+      "kind": "numeric",
+      "category": "blood",
+      "unit": "U/L",
+      "min": 65,
+      "max": 350,
+      "dengue_value": "65-350 U/L (Characteristically higher than ALT)",
+      "severe_value": "> 1,000 U/L (WHO criterion for Severe Dengue with organ impairment)",
+      "notes": "Hepatic involvement is common; AST levels are characteristically higher than ALT in acute dengue due to muscle injury and hepatic necrosis.",
+      "confidence": "high",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    },
+    "Serum Albumin": {
+      "kind": "numeric",
+      "category": "blood",
+      "unit": "g/dL",
+      "min": 2.7,
+      "max": 3.6,
+      "dengue_value": "2.7-3.6 g/dL (Hypoalbuminemia reflecting increased vascular permeability)",
+      "severe_value": "< 2.4 g/dL (Critical plasma extravasation threshold)",
+      "notes": "Decline in serum albumin directly correlates with the severity of plasma leakage and serves as a prognostic biomarker for Dengue Shock Syndrome.",
+      "confidence": "high",
+      "sources": [
+        "https://www.cdc.gov/dengue/healthcare-providers/clinical-presentation.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK430737/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449561/",
+        "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+      ]
+    }
+  }
+}

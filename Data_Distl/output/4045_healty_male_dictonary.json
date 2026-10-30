@@ -1,0 +1,403 @@
+{
+  "age_lower": 40,
+  "age_upper": 45,
+  "sex": "male",
+  "generated_at": "2026-10-22T14:16:04",
+  "cleaned_at": "2026-10-23T14:25:51",
+  "cleaning_summary": {
+    "kept": 9,
+    "filled": 3,
+    "corrected": 2,
+    "added": 2,
+    "low_confidence_in": 2
+  },
+  "parameters": {
+    "Heart Rate": {
+      "category": "vitals",
+      "unit": "bpm",
+      "min": 60,
+      "max": 100,
+      "healthy_value": "60-100 bpm",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 60,
+        "max": 100,
+        "source": "AHA / PALS resting heart rate by age"
+      },
+      "notes": "The practical sweet spot for most men is narrower than the standard range of 60 to 100 bpm. A heart rate of 55, for instance, is perfectly healthy in many men and shouldn’t raise concern on its own.",
+      "sources": [
+        "https://scienceinsights.org/what-is-a-normal-heart-rate-for-men-by-age/",
+        "https://themetabolicjournal.com/biomarkers/resting-heart-rate",
+        "https://www.healthly.io/en/heart/pulse-rate-age/40-years/",
+        "https://www.medicinenet.com/what_is_a_good_heart_rate_for_my_age/article.htm"
+      ]
+    },
+    "Systolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 90,
+      "max": 120,
+      "healthy_value": "90-120 mmHg",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 90,
+        "max": 119,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 90 mmHg"
+      ],
+      "original": {
+        "unit": "millimeters of mercury (mmHg)",
+        "min": null,
+        "max": 130,
+        "healthy_value": "(less than 120/80)",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.betterhealthfacts.com/2014/02/normal-blood-pressure-for-men.html",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Diastolic Blood Pressure": {
+      "category": "vitals",
+      "unit": "mmHg",
+      "min": 60,
+      "max": 80,
+      "healthy_value": "60-80 mmHg",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 60,
+        "max": 79,
+        "source": "AAP 2017 pediatric BP guideline; AHA/ACC 2017 (normal < 120/80)"
+      },
+      "issues": [
+        "renamed from 'Blood Pressure'",
+        "min missing, filled with 60 mmHg"
+      ],
+      "original": {
+        "unit": "millimeters of mercury (mmHg)",
+        "min": null,
+        "max": 130,
+        "healthy_value": "(less than 120/80)",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://www.betterhealthfacts.com/2014/02/normal-blood-pressure-for-men.html",
+        "https://www.medicine.net/news/Cardiovascular/Blood-Pressure-Chart-With-Readings-By-Age-and-Sex.html",
+        "https://www.medicinenet.com/what_is_normal_blood_pressure_and_pulse_by_age/article.htm"
+      ]
+    },
+    "Respiratory Rate": {
+      "category": "vitals",
+      "unit": "breaths/min",
+      "min": 12,
+      "max": 20,
+      "healthy_value": "12-20 breaths/min",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 12,
+        "max": 20,
+        "source": "PALS / clinical vital sign references"
+      },
+      "notes": "Resting rate for adults aged 18-40 years, with individual variations possible due to fitness level and health status.",
+      "sources": [
+        "https://www.after50health.com/normal-respiratory-rate-chart-for-adults-age-wise-visual-guide.html",
+        "https://www.chartsloom.com/respiratory-rate-chart",
+        "https://www.doctronic.ai/blog/normal-respiratory-rate-by-age/",
+        "https://www.nursingcalc.com/pages/normal-respiratory-rate.html"
+      ]
+    },
+    "Body Temperature": {
+      "category": "vitals",
+      "unit": "°C",
+      "min": 36.1,
+      "max": 37.2,
+      "healthy_value": "36.1-37.2 °C",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 36.1,
+        "max": 37.2,
+        "source": "Oral temperature references; older adults run slightly lower"
+      },
+      "notes": "Average near 36.6 °C, may vary depending on time of day and individual variation",
+      "sources": [
+        "https://biologyinsights.com/what-is-a-normal-body-temperature-ranges-by-age/",
+        "https://coolconversion.com/temperature/body-temperature/",
+        "https://temperatures.com/guides/normal-body-temperature",
+        "https://www.celsiusfahrenheit.co/temperature/body-temperature-chart/"
+      ]
+    },
+    "SpO2": {
+      "category": "vitals",
+      "unit": "%",
+      "min": 95,
+      "max": 100,
+      "healthy_value": "95-100 %",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 95,
+        "max": 100,
+        "source": "WHO pulse oximetry manual"
+      },
+      "notes": "For healthy adults and children (1+ years), normal SpO2 is 95–100%. For newborns in the first 10 minutes of life, 90–95% is part of the normal transition.",
+      "sources": [
+        "https://bestrateddocs.com/pulse-oximeter-chart/",
+        "https://wellfitinsider.com/wellness/blood-oxygen-level-chart-by-age/",
+        "https://www.medicinenet.com/what_are_blood_oxygen_levels/article.htm"
+      ]
+    },
+    "BMI": {
+      "category": "body",
+      "unit": "kg/m^2",
+      "min": 18.5,
+      "max": 24.9,
+      "healthy_value": "18.5-24.9 kg/m^2",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 18.5,
+        "max": 24.9,
+        "source": "WHO adult BMI; CDC BMI-for-age (5th-85th pct); geriatric optimum 22-27"
+      },
+      "notes": "Maintaining a healthy BMI in this range is associated with the lowest risk of cardiovascular disease, type 2 diabetes, and certain cancers.",
+      "sources": [
+        "https://healthcalchub.net/bmi-for-men/",
+        "https://www.lifemeasure.com/bmi-charts/men/40-years-old"
+      ]
+    },
+    "Waist Circumference": {
+      "category": "body",
+      "unit": "cm",
+      "min": null,
+      "max": 94,
+      "healthy_value": "<= 94 cm",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": null,
+        "max": 94,
+        "source": "IDF (Europid) < 94 cm men / < 80 cm women; pediatric 90th percentile"
+      },
+      "issues": [
+        "max 102 cm differs from reference 94 by more than 6, replaced"
+      ],
+      "original": {
+        "unit": "centimeters",
+        "min": null,
+        "max": 102,
+        "healthy_value": "below 102 cm",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://fitnessnorms.com/body-composition/waist-circumference/",
+        "https://gainframe.app/blog/average-waist-size-men/",
+        "https://nutritionhealthinfo.com/what-should-my-waist-circumference-be/",
+        "https://scienceinsights.org/what-is-a-healthy-waist-circumference-for-men-and-women/",
+        "https://www.health.com/average-waist-size-for-men-11801475"
+      ]
+    },
+    "Fasting Blood Glucose": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 70,
+      "max": 99,
+      "healthy_value": "70-99 mg/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 70,
+        "max": 99,
+        "source": "ADA Standards of Care (normal fasting < 100 mg/dL)"
+      },
+      "notes": "Healthy adult men typically have a fasting blood glucose within this range.",
+      "issues": [
+        "renamed from 'Glucose'"
+      ],
+      "sources": [
+        "https://bophin.com/article/blood-sugar-levels-chart-by-age-40-50-70-normal-range",
+        "https://drgooddeed.com/blog/diabetes/normal-blood-sugar-levels-chart-by-age/",
+        "https://polarbearmeds.com/normal-blood-sugar-levels-chart-by-age-40",
+        "https://rungtahospital.com/blood-sugar-level-chart/"
+      ]
+    },
+    "HbA1c": {
+      "category": "blood",
+      "unit": "%",
+      "min": 4,
+      "max": 5.7,
+      "healthy_value": "4-5.7 %",
+      "confidence": "verified",
+      "status": "filled",
+      "scraped_confidence": "low",
+      "reference": {
+        "min": 4.0,
+        "max": 5.6,
+        "source": "ADA (normal < 5.7 %, 5.7-6.4 % is prediabetes)"
+      },
+      "issues": [
+        "min missing, filled with 4.0 %"
+      ],
+      "original": {
+        "unit": "%",
+        "min": null,
+        "max": null,
+        "healthy_value": "Below 5.7%",
+        "confidence": "low"
+      },
+      "sources": [
+        "https://www.parashospitals.com/paras-blogs/en/endocrinology/hba1c-range-by-age"
+      ]
+    },
+    "Total Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 193,
+      "healthy_value": "<= 193 mg/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": null,
+        "max": 200,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (desirable < 200 mg/dL)"
+      },
+      "notes": "Normal total cholesterol for a man in his 40s, with LDL below 3.0 mmol/L.",
+      "issues": [
+        "renamed from 'Cholesterol'",
+        "converted 5.0 mmol/L to mg/dL"
+      ],
+      "sources": [
+        "https://health-aspire.com/blog/cholesterol-levels-by-age/",
+        "https://howoldismybody.org/heart/cholesterol-levels-by-age/",
+        "https://www.after50health.com/cholesterol-level-chart-by-age-for-men-a-visual-guide-to-heart-health-male.html",
+        "https://www.eternalhospital.com/title/cholesterol-normal-range-cholesterol-levels-by-age-chart"
+      ]
+    },
+    "LDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": null,
+      "max": 100,
+      "healthy_value": "<= 100 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": null,
+        "max": 100,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III (optimal < 100 mg/dL)"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "HDL Cholesterol": {
+      "category": "blood",
+      "unit": "mg/dL",
+      "min": 40,
+      "max": null,
+      "healthy_value": ">= 40 mg/dL",
+      "confidence": "reference",
+      "status": "added",
+      "scraped_confidence": null,
+      "reference": {
+        "min": 40,
+        "max": null,
+        "source": "NHLBI pediatric lipid guideline; NCEP ATP III"
+      },
+      "issues": [
+        "not found by the scraper, added from reference"
+      ]
+    },
+    "Hemoglobin": {
+      "category": "blood",
+      "unit": "g/dL",
+      "min": 13.5,
+      "max": 17.5,
+      "healthy_value": "13.5-17.5 g/dL",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 13.2,
+        "max": 16.6,
+        "source": "WHO anaemia thresholds; Mayo Clinic adult reference ranges"
+      },
+      "notes": "Normal range for healthy adult males, with some laboratories using slightly different ranges.",
+      "sources": [
+        "https://aibloodtest.de/normal-range-for-hemoglobin-men-women-kids-by-age/",
+        "https://www.doctronic.ai/blog/normal-hemoglobin-levels-by-age/",
+        "https://www.droracle.ai/articles/1005384/what-is-the-normal-hemoglobin-range-for-adult-males"
+      ]
+    },
+    "Sleep Hours": {
+      "category": "lifestyle",
+      "unit": "hours/night",
+      "min": 7,
+      "max": 8,
+      "healthy_value": "7-8 hours/night",
+      "confidence": "verified",
+      "status": "kept",
+      "scraped_confidence": "medium",
+      "reference": {
+        "min": 7,
+        "max": 9,
+        "source": "AASM / National Sleep Foundation recommendations"
+      },
+      "notes": "Values above 8 hours may indicate excessive sleep, while values below 7 hours fall into Fair, Poor, or Very Poor.",
+      "sources": [
+        "https://menshealthafter40.com/how-many-hours-sleep-men-over-40/",
+        "https://vitahealth.fit/health/en/sleep-duration/for/40-year-old-male"
+      ]
+    },
+    "Physical Activity Minutes per Week": {
+      "category": "lifestyle",
+      "unit": "min/week",
+      "min": 150,
+      "max": null,
+      "healthy_value": ">= 150 min/week",
+      "confidence": "reference",
+      "status": "corrected",
+      "scraped_confidence": "high",
+      "reference": {
+        "min": 150,
+        "max": null,
+        "source": "WHO 2020 guidelines on physical activity"
+      },
+      "issues": [
+        "max 300 dropped: guideline sets no max limit"
+      ],
+      "original": {
+        "unit": "minutes",
+        "min": null,
+        "max": 300,
+        "healthy_value": "150-300 minutes per week",
+        "confidence": "high"
+      },
+      "sources": [
+        "https://betterme.world/articles/workout-plan-for-40-year-old-man/",
+        "https://wellfitinsider.com/fitness/fitness-level-chart-by-age/",
+        "https://www.who.int/initiatives/behealthy/physical-activity"
+      ]
+    }
+  }
+}
